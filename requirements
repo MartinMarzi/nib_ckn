@@ -1,6 +1,7 @@
 pandas
+numpy
 networkx
-scikit-learn
+csv
 jupyterlab
 matplotlib
 seaborn
