@@ -1,7 +1,15 @@
 pandas
 numpy
 networkx
-csv
 jupyterlab
 matplotlib
 seaborn
+#math
+#csv
+sklearn
+#os
+stellargraph
+collections
+multiprocessing
+IPython.display
+chardet
