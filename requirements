@@ -9,7 +9,4 @@ seaborn
 sklearn
 #os
 stellargraph
-collections
-multiprocessing
-IPython.display
 chardet
