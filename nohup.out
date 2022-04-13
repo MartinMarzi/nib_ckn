@@ -62,3 +62,17 @@ Websocket closed
 2022-04-13 13:46:09.009182: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 [I 2022-04-13 13:47:44.554 ServerApp] Saving file at /Martin/CKN-LinkPred_5_0.ipynb
+[I 2022-04-13 13:58:28.378 ServerApp] Starting buffering for c0fa96aa-9828-4b24-8d8a-309e2a65a9fc:40e55f45-08f5-4c55-8d50-1efd30e10ab2
+[W 2022-04-13 13:58:29.691 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851128900 (127.0.0.1): Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:29.691 ServerApp] Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:29.691 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851128900 (127.0.0.1) 1.92ms referer=http://localhost:9001/lab/tree/Martin
+[W 2022-04-13 13:58:32.732 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851131946 (127.0.0.1): Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:32.732 ServerApp] Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:32.732 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851131946 (127.0.0.1) 1.85ms referer=http://localhost:9001/lab/tree/Martin
+[W 2022-04-13 13:58:39.062 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-04-13 13:58:45.320 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851144505 (127.0.0.1): Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:45.320 ServerApp] Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:45.320 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851144505 (127.0.0.1) 1.88ms referer=http://localhost:9001/lab/tree/Martin
+[W 2022-04-13 13:58:50.482 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851149701 (127.0.0.1): Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:50.482 ServerApp] Unreadable Notebook: /home/martinm/nib_ckn/Martin/CKN-LinkPred_5_0.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 2022-04-13 13:58:50.482 ServerApp] 400 GET /api/contents/Martin/CKN-LinkPred_5_0.ipynb?type=notebook&content=1&1649851149701 (127.0.0.1) 1.46ms referer=http://localhost:9001/lab/tree/Martin
