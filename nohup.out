@@ -1,0 +1,64 @@
+[I 2022-04-12 15:15:20.997 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-12 15:15:20.998 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-12 15:15:21.078 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-12 15:15:21.105 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-12 15:15:21.106 LabApp] JupyterLab extension loaded from /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-12 15:15:21.106 LabApp] JupyterLab application directory is /home/martinm/nib_ckn/venv/share/jupyter/lab
+[I 2022-04-12 15:15:21.107 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-12 15:15:21.107 ServerApp] Serving notebooks from local directory: /home/martinm/nib_ckn
+[I 2022-04-12 15:15:21.108 ServerApp] Jupyter Server 1.11.2 is running at:
+[I 2022-04-12 15:15:21.108 ServerApp] http://localhost:9500/lab
+[I 2022-04-12 15:15:21.108 ServerApp]  or http://127.0.0.1:9500/lab
+[I 2022-04-12 15:15:21.108 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-12 15:31:46.574 ServerApp] 302 GET / (127.0.0.1) 0.47ms
+[I 2022-04-12 15:31:46.582 LabApp] 302 GET /lab? (127.0.0.1) 0.87ms
+[I 2022-04-12 15:32:02.317 ServerApp] 302 POST /login?next=%2Flab%3F (127.0.0.1) 28.75ms
+[W 2022-04-12 15:32:04.685 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2022-04-12 15:35:27.886 ServerApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 2022-04-12 15:37:38.940 ServerApp] Notebook Martin/CKN-LinkPred_5_0.ipynb is not trusted
+[I 2022-04-12 15:37:40.027 ServerApp] Kernel started: 78728cb4-0f5c-4a42-951e-13aa5aeaf3e9
+[I 2022-04-12 15:41:39.687 ServerApp] Saving file at /Martin/CKN-LinkPred_5_0.ipynb
+[W 2022-04-12 15:41:39.687 ServerApp] Notebook Martin/CKN-LinkPred_5_0.ipynb is not trusted
+[I 2022-04-12 15:45:39.606 ServerApp] Starting buffering for 78728cb4-0f5c-4a42-951e-13aa5aeaf3e9:e95317ef-506f-40e4-851e-ac0f562badca
+Websocket closed
+[I 2022-04-12 15:45:39.848 ServerApp] Restoring connection for 78728cb4-0f5c-4a42-951e-13aa5aeaf3e9:e95317ef-506f-40e4-851e-ac0f562badca
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 2022-04-12 15:47:09.852 ServerApp] WebSocket ping timeout after 90004 ms.
+[W 2022-04-12 15:47:09.867 ServerApp] WebSocket ping timeout after 90000 ms.
+[I 2022-04-12 15:47:14.855 ServerApp] Starting buffering for 78728cb4-0f5c-4a42-951e-13aa5aeaf3e9:e95317ef-506f-40e4-851e-ac0f562badca
+Websocket closed
+[I 2022-04-13 11:02:44.875 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-04-13 11:02:44.876 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-13 11:02:44.958 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-13 11:02:44.983 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-13 11:02:44.984 LabApp] JupyterLab extension loaded from /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-13 11:02:44.984 LabApp] JupyterLab application directory is /home/martinm/nib_ckn/venv/share/jupyter/lab
+[I 2022-04-13 11:02:44.985 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-13 11:02:44.986 ServerApp] Serving notebooks from local directory: /home/martinm/nib_ckn
+[I 2022-04-13 11:02:44.986 ServerApp] Jupyter Server 1.11.2 is running at:
+[I 2022-04-13 11:02:44.986 ServerApp] http://localhost:8889/lab
+[I 2022-04-13 11:02:44.986 ServerApp]  or http://127.0.0.1:8889/lab
+[I 2022-04-13 11:02:44.986 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-04-13 11:07:08.935 ServerApp] 302 GET / (127.0.0.1) 0.52ms
+[W 2022-04-13 11:07:12.950 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-04-13 11:07:13.384 ServerApp] 404 GET /terminals/websocket/1 (127.0.0.1) 19.96ms referer=None
+[W 2022-04-13 11:07:13.611 ServerApp] 404 GET /terminals/websocket/1 (127.0.0.1) 1.15ms referer=None
+[W 2022-04-13 11:07:13.761 ServerApp] Notebook Martin/CKN-LinkPred_5_0.ipynb is not trusted
+[I 2022-04-13 11:07:14.799 ServerApp] Kernel started: c0fa96aa-9828-4b24-8d8a-309e2a65a9fc
+[I 2022-04-13 12:18:08.975 ServerApp] Starting buffering for c0fa96aa-9828-4b24-8d8a-309e2a65a9fc:9b2cff16-679b-4f0c-84c7-64fdb68fd908
+[I 2022-04-13 12:18:09.030 ServerApp] Restoring connection for c0fa96aa-9828-4b24-8d8a-309e2a65a9fc:9b2cff16-679b-4f0c-84c7-64fdb68fd908
+[W 2022-04-13 12:20:39.032 ServerApp] WebSocket ping timeout after 119992 ms.
+[I 2022-04-13 12:20:44.035 ServerApp] Starting buffering for c0fa96aa-9828-4b24-8d8a-309e2a65a9fc:9b2cff16-679b-4f0c-84c7-64fdb68fd908
+[W 2022-04-13 13:42:49.359 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-04-13 13:42:49.998 ServerApp] Notebook Martin/CKN-LinkPred_5_0.ipynb is not trusted
+[I 2022-04-13 13:45:28.357 ServerApp] Starting buffering for c0fa96aa-9828-4b24-8d8a-309e2a65a9fc:295fde86-c8b4-4adb-991e-63837b1dcaca
+[W 2022-04-13 13:45:42.950 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-04-13 13:45:43.611 ServerApp] Notebook Martin/CKN-LinkPred_5_0.ipynb is not trusted
+2022-04-13 13:46:09.009182: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-04-13 13:47:44.554 ServerApp] Saving file at /Martin/CKN-LinkPred_5_0.ipynb
