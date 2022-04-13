@@ -1,0 +1,22 @@
+* All complex code is in separate modules and is imports when needed
+
+-import network [select matrix file (different formats) / graph (NX supported)] *Must be directed graph
+
+-*import trophic level [csv]
+-*field data import
+-data preview [select # rows and columns]
+- Name network (while creating network)
+- [button] visualise network
+-- Show only newtork inline (JNB)
+-- [button] Advanced view
+
+--------
+-Basic information about network
+[button]
+
+- Degree distribution (all three degrees and with graphs)
+[button]
+
+- Degree centrality (all three
+
+- bolj generično
