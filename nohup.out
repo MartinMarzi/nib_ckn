@@ -52,3 +52,447 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 [W 2022-04-25 16:45:45.153 ServerApp] delete /data/AtCKN_2022-01-26_fully-undirected.tsv.gz
 [W 2022-04-25 16:45:45.172 ServerApp] delete /data/AtCKN_2022-01-26.tsv.gz
 [I 2022-04-25 16:46:08.262 ServerApp] Saving file at /data/AtCKN_2022-01-26_fully-undirected.tsv
+[I 2022-04-25 17:02:18.213 ServerApp] Kernel restarted: 6c439cfd-703e-45d9-8a48-582745948072
+[I 2022-04-25 17:02:20.832 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:cec7849d-c939-43e6-b644-8162a543af62
+[I 2022-04-25 17:02:20.843 ServerApp] Restoring connection for 6c439cfd-703e-45d9-8a48-582745948072:cec7849d-c939-43e6-b644-8162a543af62
+[I 2022-04-25 17:02:23.204 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_1.ipynb
+2022-04-25 17:02:25.131656: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-04-25 17:04:24.464 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_1.ipynb
+[I 2022-04-25 17:05:47.557 ServerApp] Starting buffering for 77aaaf1d-c075-4e5e-9648-aea8a693a00d:9595c8b6-93b9-4d97-8e47-265fcdc62b88
+[I 2022-04-25 17:05:50.388 ServerApp] Starting buffering for cd078e93-ae5b-45fa-a577-cbc56f758b9e:78ed5742-391a-4ab0-bbd2-ef304f2b636d
+[I 2022-04-25 17:14:29.603 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:cec7849d-c939-43e6-b644-8162a543af62
+Websocket closed
+[I 2022-04-25 17:14:29.611 ServerApp] Starting buffering for aa9c2b36-e3fe-4c2b-88d3-91ff76e1852c:6f3851a6-f21b-44b4-bdce-1e9235192a9c
+[I 2022-04-25 17:14:29.741 ServerApp] Restoring connection for 6c439cfd-703e-45d9-8a48-582745948072:cec7849d-c939-43e6-b644-8162a543af62
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-25 17:14:29.773 ServerApp] Restoring connection for aa9c2b36-e3fe-4c2b-88d3-91ff76e1852c:6f3851a6-f21b-44b4-bdce-1e9235192a9c
+[W 2022-04-25 17:14:34.249 ServerApp] Nudge: attempt 10 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:14:39.260 ServerApp] Nudge: attempt 20 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:14:44.269 ServerApp] Nudge: attempt 30 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:14:49.277 ServerApp] Nudge: attempt 40 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:14:54.286 ServerApp] Nudge: attempt 50 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:14:59.294 ServerApp] Nudge: attempt 60 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:15:04.301 ServerApp] Nudge: attempt 70 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:15:09.309 ServerApp] Nudge: attempt 80 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:15:14.318 ServerApp] Nudge: attempt 90 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:15:19.325 ServerApp] Nudge: attempt 100 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:15:24.332 ServerApp] Nudge: attempt 110 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-25 17:15:29.342 ServerApp] Nudge: attempt 120 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[E 2022-04-25 17:15:29.741 ServerApp] Uncaught exception GET /api/kernels/6c439cfd-703e-45d9-8a48-582745948072/channels?session_id=cec7849d-c939-43e6-b644-8162a543af62 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:9001', method='GET', uri='/api/kernels/6c439cfd-703e-45d9-8a48-582745948072/channels?session_id=cec7849d-c939-43e6-b644-8162a543af62', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[W 2022-04-25 17:15:59.742 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-04-25 17:15:59.757 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-04-25 17:15:59.774 ServerApp] WebSocket ping timeout after 90000 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+[I 2022-04-25 17:16:04.775 ServerApp] Starting buffering for aa9c2b36-e3fe-4c2b-88d3-91ff76e1852c:6f3851a6-f21b-44b4-bdce-1e9235192a9c
+[W 2022-04-25 17:16:51.762 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:cec7849d-c939-43e6-b644-8162a543af62
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-25 17:16:52.085 ServerApp] Restoring connection for aa9c2b36-e3fe-4c2b-88d3-91ff76e1852c:6f3851a6-f21b-44b4-bdce-1e9235192a9c
+[W 2022-04-25 17:18:22.067 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-04-25 17:18:22.087 ServerApp] WebSocket ping timeout after 90001 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+[I 2022-04-25 17:18:27.088 ServerApp] Starting buffering for aa9c2b36-e3fe-4c2b-88d3-91ff76e1852c:6f3851a6-f21b-44b4-bdce-1e9235192a9c
+[I 2022-04-25 17:32:52.180 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:cec7849d-c939-43e6-b644-8162a543af62
+[W 2022-04-25 17:38:28.713 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.718 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.735 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.884 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.887 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.888 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.890 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.891 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.892 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.893 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.894 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.895 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.896 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.897 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.898 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.899 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.901 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.902 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.903 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.904 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.905 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.906 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.907 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.909 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.910 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.911 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.912 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.913 ServerApp] zmq message arrived on closed channel
+[W 2022-04-25 17:38:28.914 ServerApp] zmq message arrived on closed channel
+[I 2022-04-26 11:30:35.580 ServerApp] 302 GET / (127.0.0.1) 0.39ms
+[W 2022-04-26 11:30:37.334 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 2022-04-26 11:33:09.848 ServerApp] WebSocket ping timeout after 119990 ms.
+[I 2022-04-26 11:33:14.850 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:3ffd592b-5d48-4157-af12-34e63dadc381
+[W 2022-04-26 11:33:37.757 ServerApp] WebSocket ping timeout after 119906 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+[I 2022-04-26 11:34:56.118 ServerApp] 302 GET / (127.0.0.1) 0.43ms
+[W 2022-04-26 11:34:58.026 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-26 11:36:17.777 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:ee55ce4f-8c9a-4c28-9fc9-43a1e02cfab7
+Websocket closed
+[I 2022-04-26 12:21:54.623 ServerApp] 302 GET / (127.0.0.1) 0.43ms
+[W 2022-04-26 12:21:56.202 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-26 12:22:29.414 ServerApp] Kernel restarted: 6c439cfd-703e-45d9-8a48-582745948072
+[I 2022-04-26 12:22:32.031 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[I 2022-04-26 12:22:32.042 ServerApp] Restoring connection for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+2022-04-26 12:22:36.390909: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-04-26 12:23:57.681 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_1.ipynb
+[I 2022-04-26 12:32:11.186 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+Websocket closed
+[I 2022-04-26 12:32:11.217 ServerApp] Restoring connection for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-26 12:58:20.883 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_1.ipynb
+[I 2022-04-26 13:00:21.101 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_1.ipynb
+[I 2022-04-26 13:08:21.440 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_1.ipynb
+[I 2022-04-26 13:08:24.635 ServerApp] New terminal with automatic name: 2
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+[I 2022-04-26 13:30:47.864 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+Websocket closed
+Websocket closed
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-26 13:30:47.922 ServerApp] Restoring connection for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[W 2022-04-26 13:30:52.431 ServerApp] Nudge: attempt 10 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:30:57.440 ServerApp] Nudge: attempt 20 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:02.451 ServerApp] Nudge: attempt 30 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:07.462 ServerApp] Nudge: attempt 40 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:12.473 ServerApp] Nudge: attempt 50 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:17.483 ServerApp] Nudge: attempt 60 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:22.492 ServerApp] Nudge: attempt 70 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:27.501 ServerApp] Nudge: attempt 80 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:32.510 ServerApp] Nudge: attempt 90 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:37.520 ServerApp] Nudge: attempt 100 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:42.531 ServerApp] Nudge: attempt 110 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[W 2022-04-26 13:31:47.538 ServerApp] Nudge: attempt 120 on kernel 6c439cfd-703e-45d9-8a48-582745948072
+[E 2022-04-26 13:31:47.923 ServerApp] Uncaught exception GET /api/kernels/6c439cfd-703e-45d9-8a48-582745948072/channels?session_id=ab02e11c-d02f-4689-8fc8-17f61028fc10 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:9001', method='GET', uri='/api/kernels/6c439cfd-703e-45d9-8a48-582745948072/channels?session_id=ab02e11c-d02f-4689-8fc8-17f61028fc10', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 956, in _accept_connection
+        await open_result
+      File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+        future.result()
+    tornado.util.TimeoutError: Timeout
+[W 2022-04-26 13:32:17.890 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-04-26 13:32:17.905 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-04-26 13:32:17.922 ServerApp] WebSocket ping timeout after 90000 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(36, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(36, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(36, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(36, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(36, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(36, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+Websocket closed
+[W 2022-04-26 13:37:07.714 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-04-26 13:41:07.706 ServerApp] Starting buffering for 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[W 2022-04-26 13:41:08.299 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[W 2022-04-26 13:45:08.436 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[W 2022-04-26 13:45:31.873 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.411 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.413 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.432 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.448 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.486 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.513 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:33.518 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:35.178 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:35.181 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:35.370 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:48.177 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.128 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.131 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.220 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.250 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.275 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.291 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.330 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.339 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.509 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:49.569 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:45:50.067 ServerApp] zmq message arrived on closed channel
+[W 2022-04-26 13:49:10.656 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[W 2022-04-26 13:53:22.803 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[W 2022-04-26 13:57:37.587 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
