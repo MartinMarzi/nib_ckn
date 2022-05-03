@@ -1,0 +1,138 @@
+---
+title: "subset"
+author: "zagor"
+date: "`r Sys.Date()`"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+
+
+fp = 'O:/DEJAVNOSTI/OMIKE/Omics_FinalResults/Transcriptomics/At-hormonal-timeseries-Saskia'
+fn = 'RNA_seq_time_series_MCR_normalized.txt'
+
+tmp = read.table(file = file.path(fp,fn), 
+           header = TRUE, 
+           sep = "\t", 
+           quote = NULL,
+           dec = ".", 
+           stringsAsFactors = FALSE,
+           na.strings = "NA", 
+           strip.white = TRUE, 
+           comment.char = "@",
+           fileEncoding = "", 
+           encoding = "UTF-8")
+
+colnames(tmp)
+rownames(tmp) = tmp[,1]
+tmp = tmp[,-1]
+
+
+colnames(tmp)[grep('SA_', colnames(tmp))]
+colnames(tmp)[grep('Mock_', colnames(tmp))]
+
+sa = tmp[, grep('SA_', colnames(tmp))]
+mock = tmp[grep('Mock_', colnames(tmp))]
+rm(tmp)
+
+(replicate.m = sapply(strsplit(colnames(mock), "_"), tail, 1))
+(replicate.sa = sapply(strsplit(colnames(sa), "_"), tail, 1))
+
+(group.mock = ordered(paste(sapply(strsplit(colnames(mock), "_"), head, 2)[1,], sapply(strsplit(colnames(mock), "_"), head, 2)[2,], sep = "_")))
+(group.sa = paste(sapply(strsplit(colnames(sa), "_"), head, 2)[1,], sapply(strsplit(colnames(sa), "_"), head, 2)[2,], sep = "_"))
+
+
+sa.t = (as.matrix(t(sa)))
+(ncol.sa = ncol(sa.t))
+sa.t = as.data.frame(sa.t)
+sa.t$group.sa = group.sa
+
+
+sa.t.mean = aggregate(sa.t[, 1:ncol.sa], list(group.sa), mean)
+rownames(sa.t.mean) = sa.t.mean[,1]
+sa.t.mean = sa.t.mean[,-1]
+sa.mean = t(sa.t.mean)
+
+sa.mean = sa.mean[, match(unique(group.sa),  colnames(sa.mean))]
+
+
+
+mock.t = (as.matrix(t(mock)))
+(ncol.mock = ncol(mock.t))
+mock.t = as.data.frame(mock.t)
+mock.t$group.mock = group.mock
+
+
+mock.t.mean = aggregate(mock.t[, 1:ncol.mock], list(group.mock), mean)
+rownames(mock.t.mean) = mock.t.mean[,1]
+mock.t.mean = mock.t.mean[,-1]
+mock.mean = t(mock.t.mean)
+
+
+mock.mean = mock.mean[, match(unique(group.mock),  colnames(mock.mean))]
+
+```
+
+
+```{r}
+
+sa$geneID = rownames(sa)
+mock$geneID = rownames(mock)
+
+sa.mock = merge(sa, mock, by = 'geneID', all.x = TRUE, all.y = TRUE)
+
+```
+
+
+
+```{r}
+
+write.table(x = sa.mock, 
+            file = "sa.mock_biol.replicates.txt", 
+            append = FALSE, 
+            quote = FALSE, 
+            sep = "\t",
+            eol = "\n", 
+            na = "NA", 
+            dec = ".", 
+            row.names = FALSE,
+            col.names = TRUE, 
+            qmethod = "escape",
+            fileEncoding = "UTF-8")
+
+write.table(x = mock.mean, 
+            file = "mock.mean_avg.txt", 
+            append = FALSE, 
+            quote = FALSE, 
+            sep = "\t",
+            eol = "\n", 
+            na = "NA", 
+            dec = ".", 
+            row.names = TRUE,
+            col.names = TRUE, 
+            qmethod = "escape",
+            fileEncoding = "UTF-8")
+
+write.table(x = sa.mean, 
+            file = "sa.mean_avg.txt", 
+            append = FALSE, 
+            quote = FALSE, 
+            sep = "\t",
+            eol = "\n", 
+            na = "NA", 
+            dec = ".", 
+            row.names = TRUE,
+            col.names = TRUE, 
+            qmethod = "escape",
+            fileEncoding = "UTF-8")
+
+```
+
