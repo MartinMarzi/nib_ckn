@@ -635,3 +635,13 @@ TermSocket.open: Opened 2
 [I 2022-05-06 12:16:45.359 ServerApp] Restoring connection for 31dea182-d7ee-4bf1-96de-2879d9a39214:c072890e-751c-469a-805a-8243c22925e0
 2022-05-06 12:16:49.958886: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-05-06 12:17:43.908 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 12:19:44.271 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 13:09:25.270 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:01:29.501 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:03:29.748 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:05:30.019 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:07:30.332 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:09:30.590 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:13:30.883 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[I 2022-05-06 14:15:31.237 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
