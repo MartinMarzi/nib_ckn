@@ -496,3 +496,101 @@ TermSocket.open: Opened 1
 [W 2022-04-26 13:49:10.656 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
 [W 2022-04-26 13:53:22.803 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
 [W 2022-04-26 13:57:37.587 ServerApp] Replacing stale connection: 6c439cfd-703e-45d9-8a48-582745948072:ab02e11c-d02f-4689-8fc8-17f61028fc10
+[I 2022-05-06 10:32:50.278 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-05-06 10:32:50.279 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-05-06 10:32:50.363 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-06 10:32:50.386 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-06 10:32:50.386 LabApp] JupyterLab extension loaded from /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-06 10:32:50.386 LabApp] JupyterLab application directory is /home/martinm/nib_ckn/venv/share/jupyter/lab
+[I 2022-05-06 10:32:50.388 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-06 10:32:50.388 ServerApp] Serving notebooks from local directory: /home/martinm/nib_ckn
+[I 2022-05-06 10:32:50.388 ServerApp] Jupyter Server 1.11.2 is running at:
+[I 2022-05-06 10:32:50.388 ServerApp] http://localhost:8889/lab
+[I 2022-05-06 10:32:50.388 ServerApp]  or http://127.0.0.1:8889/lab
+[I 2022-05-06 10:32:50.388 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-05-06 10:33:28.594 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-05-06 10:33:31.872 ServerApp] Notebook notebooks/CKN-LinkPred_5_3.ipynb is not trusted
+[W 2022-05-06 10:33:31.979 ServerApp] Notebook notebooks/CKN-LinkPred_5_2.ipynb is not trusted
+[W 2022-05-06 10:33:32.342 ServerApp] Notebook notebooks/CKN-LinkPred-GCN_1_0.ipynb is not trusted
+[I 2022-05-06 10:33:36.699 ServerApp] Kernel started: db17d39d-a8a1-416a-bf2d-35f291ba0941
+[I 2022-05-06 10:33:36.704 ServerApp] Kernel started: e9aa970e-4e2e-43d1-8505-91d12b8bbc3a
+[I 2022-05-06 10:33:36.709 ServerApp] Kernel started: 22cb9088-ff57-4b06-8683-9bc24b4520ea
+[I 2022-05-06 10:33:36.947 ServerApp] Kernel started: fe797c7a-c6f5-4b9d-a56a-a198786039b4
+[I 2022-05-06 10:33:37.304 ServerApp] Kernel started: 8565f97b-4475-4ca8-b587-6b4f91e58f79
+[I 2022-05-06 10:33:37.511 ServerApp] Kernel started: 0b194552-6bc5-44ee-9d3f-289d15cb1a54
+[I 2022-05-06 10:33:45.978 ServerApp] Starting buffering for 0b194552-6bc5-44ee-9d3f-289d15cb1a54:6f86d8d4-c1b9-4400-b246-1d06a90ff99e
+[I 2022-05-06 10:45:41.875 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_4.ipynb
+[I 2022-05-06 10:47:41.132 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+2022-05-06 10:48:13.413985: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-05-06 10:49:44.802 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 10:51:46.123 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 10:53:42.676 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[I 2022-05-06 10:53:52.187 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 10:55:43.852 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[I 2022-05-06 10:55:53.708 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 10:57:44.438 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 10:57:44.439 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+2022-05-06 10:59:25.610588: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-05-06 10:59:44.807 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 10:59:44.807 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:01:45.357 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:01:45.358 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:03:18.445 ServerApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-05-06 11:04:14.275 ServerApp] Copying notebooks/CKN-LinkPred_3_2.ipynb to /notebooks
+[I 2022-05-06 11:04:31.894 ServerApp] Kernel started: 647008f7-aa33-44dd-ade0-50cc70575078
+[I 2022-05-06 11:06:15.413 ServerApp] Kernel restarted: 22cb9088-ff57-4b06-8683-9bc24b4520ea
+[I 2022-05-06 11:06:19.165 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:86fb94d3-d20d-4d24-b1be-a0fe6d50f6f1
+[I 2022-05-06 11:06:19.508 ServerApp] Restoring connection for 22cb9088-ff57-4b06-8683-9bc24b4520ea:86fb94d3-d20d-4d24-b1be-a0fe6d50f6f1
+2022-05-06 11:06:25.284638: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-05-06 11:06:32.049 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2-corrected.ipynb
+[I 2022-05-06 11:07:12.485 ServerApp] Kernel restarted: 647008f7-aa33-44dd-ade0-50cc70575078
+[I 2022-05-06 11:07:12.632 ServerApp] Starting buffering for 647008f7-aa33-44dd-ade0-50cc70575078:1866dd8a-fe15-4cc9-ae82-196a4d6731f2
+[I 2022-05-06 11:07:12.638 ServerApp] Restoring connection for 647008f7-aa33-44dd-ade0-50cc70575078:1866dd8a-fe15-4cc9-ae82-196a4d6731f2
+2022-05-06 11:07:17.186286: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-05-06 11:07:27.549 ServerApp] Kernel restarted: 22cb9088-ff57-4b06-8683-9bc24b4520ea
+[I 2022-05-06 11:07:32.867 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:86fb94d3-d20d-4d24-b1be-a0fe6d50f6f1
+[I 2022-05-06 11:07:32.882 ServerApp] Restoring connection for 22cb9088-ff57-4b06-8683-9bc24b4520ea:86fb94d3-d20d-4d24-b1be-a0fe6d50f6f1
+2022-05-06 11:07:37.849193: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2022-05-06 11:07:54.073 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 11:08:32.318 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2-corrected.ipynb
+[I 2022-05-06 11:09:38.997 ServerApp] Starting buffering for e9aa970e-4e2e-43d1-8505-91d12b8bbc3a:4a689411-d731-460f-874b-9ca10b16597b
+[I 2022-05-06 11:09:45.555 ServerApp] Starting buffering for db17d39d-a8a1-416a-bf2d-35f291ba0941:4b249655-feec-4b96-adde-be4efbf3c4a0
+[I 2022-05-06 11:11:46.456 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:11:46.457 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:15:46.810 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:15:46.810 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:17:47.251 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:17:47.251 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:19:47.528 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:19:47.529 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:21:48.288 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:21:48.289 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:23:48.707 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:23:48.708 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:25:49.212 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:25:49.213 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:26:32.925 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2-corrected.ipynb
+[I 2022-05-06 11:27:50.043 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:27:50.043 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:27:54.370 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 11:28:33.469 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2-corrected.ipynb
+[I 2022-05-06 11:29:50.659 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:29:50.660 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:30:47.797 ServerApp] Creating new directory in /notebooks
+[W 2022-05-06 11:31:47.925 ServerApp] Notebook notebooks/NetworkX_excs.ipynb is not trusted
+[I 2022-05-06 11:31:49.752 ServerApp] Kernel started: d03a348f-5ac1-4e98-b92e-5e57062827ab
+[I 2022-05-06 11:33:19.547 ServerApp] Starting buffering for d03a348f-5ac1-4e98-b92e-5e57062827ab:7a568d74-26ed-4a9b-a0ce-3b880f972268
+[I 2022-05-06 11:34:57.370 ServerApp] Starting buffering for fe797c7a-c6f5-4b9d-a56a-a198786039b4:de5aa9b6-289b-476d-81e0-38466e5797a9
+[I 2022-05-06 11:35:24.949 ServerApp] Kernel started: 61583383-730f-45ab-8624-336d68f5d3a2
+[I 2022-05-06 11:40:57.863 ServerApp] New terminal with automatic name: 2
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
