@@ -594,3 +594,44 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 TermSocket.open: 2
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 2
+[I 2022-05-06 11:41:51.451 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:41:51.452 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:45:51.901 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:45:51.902 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:47:52.281 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:47:52.282 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:47:54.922 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 11:48:34.761 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2-corrected.ipynb
+[I 2022-05-06 11:49:53.017 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:49:53.018 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:51:53.802 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:51:53.803 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:53:54.221 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:53:54.222 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:55:54.695 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:55:54.696 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:57:55.035 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:57:55.036 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 11:59:55.380 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 11:59:55.381 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 12:01:55.865 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 12:01:55.865 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 12:03:56.324 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 12:03:56.325 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 12:08:35.601 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2-corrected.ipynb
+[I 2022-05-06 12:08:39.300 ServerApp] Starting buffering for 61583383-730f-45ab-8624-336d68f5d3a2:be974485-e06a-456d-8d10-bd1f45626a73
+[I 2022-05-06 12:09:56.146 ServerApp] Saving file at /notebooks/CKN-LinkPred_3_2.ipynb
+[I 2022-05-06 12:13:27.885 ServerApp] Copying notebooks/CKN-LinkPred_5_5.ipynb to /notebooks
+[W 2022-05-06 12:13:27.949 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[W 2022-05-06 12:13:28.004 ServerApp] Notebook notebooks/CKN-LinkPred_5_5-Copy1.ipynb is not trusted
+[W 2022-05-06 12:13:42.058 ServerApp] Notebook notebooks/CKN-LinkPred_5_6.ipynb is not trusted
+[I 2022-05-06 12:13:43.961 ServerApp] Kernel started: 31dea182-d7ee-4bf1-96de-2879d9a39214
+[I 2022-05-06 12:13:56.676 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_5.ipynb
+[W 2022-05-06 12:13:56.676 ServerApp] Notebook notebooks/CKN-LinkPred_5_5.ipynb is not trusted
+[I 2022-05-06 12:15:43.480 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_6.ipynb
+[W 2022-05-06 12:15:43.481 ServerApp] Notebook notebooks/CKN-LinkPred_5_6.ipynb is not trusted
+[I 2022-05-06 12:16:45.219 ServerApp] Kernel restarted: 31dea182-d7ee-4bf1-96de-2879d9a39214
+[I 2022-05-06 12:16:45.351 ServerApp] Starting buffering for 31dea182-d7ee-4bf1-96de-2879d9a39214:c072890e-751c-469a-805a-8243c22925e0
+[I 2022-05-06 12:16:45.359 ServerApp] Restoring connection for 31dea182-d7ee-4bf1-96de-2879d9a39214:c072890e-751c-469a-805a-8243c22925e0
+2022-05-06 12:16:49.958886: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
