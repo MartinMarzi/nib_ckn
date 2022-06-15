@@ -4278,3 +4278,829 @@ TermSocket.open: Opened 2
 TermSocket.open: 3
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 3
+[W 2022-06-15 12:40:35.554 ServerApp] Forbidden
+[W 2022-06-15 12:40:35.554 ServerApp] 403 GET /api/sessions?1655289678476 (127.0.0.1) 0.65ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:35.554 ServerApp] Forbidden
+[W 2022-06-15 12:40:35.554 ServerApp] 403 GET /api/kernels?1655289678476 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:35.562 ServerApp] Forbidden
+[W 2022-06-15 12:40:35.562 ServerApp] 403 GET /api/terminals?1655289678486 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:35.562 ServerApp] Forbidden
+[W 2022-06-15 12:40:35.562 ServerApp] 403 GET /api/contents/notebooks?content=1&1655289678487 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:45.589 ServerApp] Forbidden
+[W 2022-06-15 12:40:45.590 ServerApp] 403 GET /api/contents/notebooks?content=1&1655289688518 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:47.348 ServerApp] Forbidden
+[W 2022-06-15 12:40:47.348 ServerApp] 403 GET /api/kernels?1655289690263 (127.0.0.1) 0.45ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:55.606 ServerApp] Forbidden
+[W 2022-06-15 12:40:55.607 ServerApp] 403 GET /api/contents/notebooks?content=1&1655289698531 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:56.183 ServerApp] Forbidden
+[W 2022-06-15 12:40:56.183 ServerApp] 403 GET /api/kernelspecs?1655289699116 (127.0.0.1) 0.36ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:40:56.629 ServerApp] Forbidden
+[W 2022-06-15 12:40:56.629 ServerApp] 403 GET /api/sessions?1655289699557 (127.0.0.1) 0.33ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:41:04.848 ServerApp] Forbidden
+[W 2022-06-15 12:41:04.849 ServerApp] 403 GET /api/terminals?1655289707777 (127.0.0.1) 0.45ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:41:05.622 ServerApp] Forbidden
+[W 2022-06-15 12:41:05.622 ServerApp] 403 GET /api/contents/notebooks?content=1&1655289708551 (127.0.0.1) 0.37ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:06.591 ServerApp] Forbidden
+[W 2022-06-15 12:51:06.591 ServerApp] 403 GET /api/kernelspecs?1655290309515 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:06.608 ServerApp] Forbidden
+[W 2022-06-15 12:51:06.608 ServerApp] 403 GET /api/sessions?1655290309531 (127.0.0.1) 1.31ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:06.609 ServerApp] Forbidden
+[W 2022-06-15 12:51:06.609 ServerApp] 403 GET /api/terminals?1655290309532 (127.0.0.1) 1.42ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:06.609 ServerApp] Forbidden
+[W 2022-06-15 12:51:06.609 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290309532 (127.0.0.1) 1.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:06.609 ServerApp] Forbidden
+[W 2022-06-15 12:51:06.610 ServerApp] 403 GET /api/kernels?1655290309533 (127.0.0.1) 1.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:16.647 ServerApp] Forbidden
+[W 2022-06-15 12:51:16.647 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290319585 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:17.704 ServerApp] Forbidden
+[W 2022-06-15 12:51:17.704 ServerApp] 403 GET /api/sessions?1655290320648 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:23.047 ServerApp] Forbidden
+[W 2022-06-15 12:51:23.047 ServerApp] 403 GET /api/terminals?1655290325985 (127.0.0.1) 0.65ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:26.668 ServerApp] Forbidden
+[W 2022-06-15 12:51:26.668 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290329602 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:35.089 ServerApp] Forbidden
+[W 2022-06-15 12:51:35.089 ServerApp] 403 GET /api/sessions?1655290338031 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:35.186 ServerApp] Forbidden
+[W 2022-06-15 12:51:35.187 ServerApp] 403 GET /api/kernels?1655290338128 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:36.679 ServerApp] Forbidden
+[W 2022-06-15 12:51:36.680 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290339624 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:46.701 ServerApp] Forbidden
+[W 2022-06-15 12:51:46.701 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290349635 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:56.713 ServerApp] Forbidden
+[W 2022-06-15 12:51:56.713 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290359657 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:51:58.958 ServerApp] Forbidden
+[W 2022-06-15 12:51:58.958 ServerApp] 403 GET /api/terminals?1655290361899 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:06.730 ServerApp] Forbidden
+[W 2022-06-15 12:52:06.730 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290369671 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:07.842 ServerApp] Forbidden
+[W 2022-06-15 12:52:07.842 ServerApp] 403 GET /api/sessions?1655290370785 (127.0.0.1) 0.59ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:10.974 ServerApp] Forbidden
+[W 2022-06-15 12:52:10.974 ServerApp] 403 GET /api/terminals?1655290373911 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:16.739 ServerApp] Forbidden
+[W 2022-06-15 12:52:16.739 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290379684 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:25.036 ServerApp] Forbidden
+[W 2022-06-15 12:52:25.036 ServerApp] 403 GET /api/kernelspecs?1655290387974 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:26.754 ServerApp] Forbidden
+[W 2022-06-15 12:52:26.754 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290389693 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:36.763 ServerApp] Forbidden
+[W 2022-06-15 12:52:36.763 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290399708 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:42.377 ServerApp] Forbidden
+[W 2022-06-15 12:52:42.377 ServerApp] 403 GET /api/terminals?1655290405321 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:42.916 ServerApp] Forbidden
+[W 2022-06-15 12:52:42.916 ServerApp] 403 GET /api/kernels?1655290405856 (127.0.0.1) 0.57ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:46.772 ServerApp] Forbidden
+[W 2022-06-15 12:52:46.772 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290409717 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:52:56.790 ServerApp] Forbidden
+[W 2022-06-15 12:52:56.790 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290419730 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:06.800 ServerApp] Forbidden
+[W 2022-06-15 12:53:06.800 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290429745 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:16.856 ServerApp] Forbidden
+[W 2022-06-15 12:53:16.856 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290439758 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:22.187 ServerApp] Forbidden
+[W 2022-06-15 12:53:22.187 ServerApp] 403 GET /api/terminals?1655290445127 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:26.876 ServerApp] Forbidden
+[W 2022-06-15 12:53:26.876 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290449815 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:36.888 ServerApp] Forbidden
+[W 2022-06-15 12:53:36.888 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290459834 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:39.429 ServerApp] Forbidden
+[W 2022-06-15 12:53:39.429 ServerApp] 403 GET /api/sessions?1655290462370 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:39.968 ServerApp] Forbidden
+[W 2022-06-15 12:53:39.968 ServerApp] 403 GET /api/terminals?1655290462908 (127.0.0.1) 0.43ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:46.895 ServerApp] Forbidden
+[W 2022-06-15 12:53:46.895 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290469837 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:53:56.906 ServerApp] Forbidden
+[W 2022-06-15 12:53:56.906 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290479842 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:03.150 ServerApp] Forbidden
+[W 2022-06-15 12:54:03.150 ServerApp] 403 GET /api/kernels?1655290486084 (127.0.0.1) 0.60ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:06.925 ServerApp] Forbidden
+[W 2022-06-15 12:54:06.925 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290489851 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:15.883 ServerApp] Forbidden
+[W 2022-06-15 12:54:15.883 ServerApp] 403 GET /api/terminals?1655290498808 (127.0.0.1) 0.70ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:16.946 ServerApp] Forbidden
+[W 2022-06-15 12:54:16.946 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290499870 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:19.722 ServerApp] Forbidden
+[W 2022-06-15 12:54:19.722 ServerApp] 403 GET /api/kernelspecs?1655290502645 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:26.963 ServerApp] Forbidden
+[W 2022-06-15 12:54:26.963 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290509886 (127.0.0.1) 0.63ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:36.981 ServerApp] Forbidden
+[W 2022-06-15 12:54:36.981 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290519904 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:46.990 ServerApp] Forbidden
+[W 2022-06-15 12:54:46.990 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290529920 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:54:57.005 ServerApp] Forbidden
+[W 2022-06-15 12:54:57.005 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290539928 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:02.183 ServerApp] Forbidden
+[W 2022-06-15 12:55:02.184 ServerApp] 403 GET /api/sessions?1655290545112 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:02.910 ServerApp] Forbidden
+[W 2022-06-15 12:55:02.911 ServerApp] 403 GET /api/terminals?1655290545840 (127.0.0.1) 0.61ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:07.021 ServerApp] Forbidden
+[W 2022-06-15 12:55:07.021 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290549943 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:13.931 ServerApp] Forbidden
+[W 2022-06-15 12:55:13.932 ServerApp] 403 GET /api/kernels?1655290556857 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:17.039 ServerApp] Forbidden
+[W 2022-06-15 12:55:17.039 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290559962 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:27.056 ServerApp] Forbidden
+[W 2022-06-15 12:55:27.056 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290569978 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:37.075 ServerApp] Forbidden
+[W 2022-06-15 12:55:37.075 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290579998 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:38.659 ServerApp] Forbidden
+[W 2022-06-15 12:55:38.659 ServerApp] 403 GET /api/terminals?1655290581582 (127.0.0.1) 0.70ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:47.094 ServerApp] Forbidden
+[W 2022-06-15 12:55:47.095 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290590017 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:55:57.107 ServerApp] Forbidden
+[W 2022-06-15 12:55:57.107 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290600036 (127.0.0.1) 0.78ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:07.127 ServerApp] Forbidden
+[W 2022-06-15 12:56:07.127 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290610050 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:17.171 ServerApp] Forbidden
+[W 2022-06-15 12:56:17.171 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290620071 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:27.189 ServerApp] Forbidden
+[W 2022-06-15 12:56:27.189 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290630113 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:35.196 ServerApp] Forbidden
+[W 2022-06-15 12:56:35.196 ServerApp] 403 GET /api/kernels?1655290638062 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:37.202 ServerApp] Forbidden
+[W 2022-06-15 12:56:37.202 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290640129 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:47.224 ServerApp] Forbidden
+[W 2022-06-15 12:56:47.224 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290650147 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:48.336 ServerApp] Forbidden
+[W 2022-06-15 12:56:48.336 ServerApp] 403 GET /api/terminals?1655290651258 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:56:57.250 ServerApp] Forbidden
+[W 2022-06-15 12:56:57.250 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290660170 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:07.268 ServerApp] Forbidden
+[W 2022-06-15 12:57:07.268 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290670192 (127.0.0.1) 0.58ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:17.282 ServerApp] Forbidden
+[W 2022-06-15 12:57:17.282 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290680208 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:27.306 ServerApp] Forbidden
+[W 2022-06-15 12:57:27.306 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290690225 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:37.339 ServerApp] Forbidden
+[W 2022-06-15 12:57:37.339 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290700248 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:41.224 ServerApp] Forbidden
+[W 2022-06-15 12:57:41.224 ServerApp] 403 GET /api/terminals?1655290704144 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:47.353 ServerApp] Forbidden
+[W 2022-06-15 12:57:47.353 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290710285 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:57:57.430 ServerApp] Forbidden
+[W 2022-06-15 12:57:57.430 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290720296 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:07.461 ServerApp] Forbidden
+[W 2022-06-15 12:58:07.461 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290730382 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:17.713 ServerApp] Forbidden
+[W 2022-06-15 12:58:17.713 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290740642 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:26.674 ServerApp] Forbidden
+[W 2022-06-15 12:58:26.674 ServerApp] 403 GET /api/kernels?1655290749595 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:27.753 ServerApp] Forbidden
+[W 2022-06-15 12:58:27.754 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290750676 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:37.776 ServerApp] Forbidden
+[W 2022-06-15 12:58:37.776 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290760699 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:47.795 ServerApp] Forbidden
+[W 2022-06-15 12:58:47.795 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290770722 (127.0.0.1) 0.65ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:51.652 ServerApp] Forbidden
+[W 2022-06-15 12:58:51.652 ServerApp] 403 GET /api/sessions?1655290774580 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:58:57.822 ServerApp] Forbidden
+[W 2022-06-15 12:58:57.822 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290780742 (127.0.0.1) 0.61ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:07.839 ServerApp] Forbidden
+[W 2022-06-15 12:59:07.839 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290790769 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:17.855 ServerApp] Forbidden
+[W 2022-06-15 12:59:17.856 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290800785 (127.0.0.1) 0.65ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:18.838 ServerApp] Forbidden
+[W 2022-06-15 12:59:18.838 ServerApp] 403 GET /api/kernelspecs?1655290801768 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:27.871 ServerApp] Forbidden
+[W 2022-06-15 12:59:27.871 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290810797 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:37.893 ServerApp] Forbidden
+[W 2022-06-15 12:59:37.893 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290820818 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:47.914 ServerApp] Forbidden
+[W 2022-06-15 12:59:47.914 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290830837 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:51.822 ServerApp] Forbidden
+[W 2022-06-15 12:59:51.822 ServerApp] 403 GET /api/terminals?1655290834751 (127.0.0.1) 0.46ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 12:59:57.935 ServerApp] Forbidden
+[W 2022-06-15 12:59:57.935 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290840860 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:02.634 ServerApp] Forbidden
+[W 2022-06-15 13:00:02.634 ServerApp] 403 GET /api/kernels?1655290845558 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:07.954 ServerApp] Forbidden
+[W 2022-06-15 13:00:07.954 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290850881 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:17.983 ServerApp] Forbidden
+[W 2022-06-15 13:00:17.983 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290860906 (127.0.0.1) 0.81ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:28.003 ServerApp] Forbidden
+[W 2022-06-15 13:00:28.003 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290870931 (127.0.0.1) 0.86ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:38.030 ServerApp] Forbidden
+[W 2022-06-15 13:00:38.030 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290880948 (127.0.0.1) 0.60ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:48.047 ServerApp] Forbidden
+[W 2022-06-15 13:00:48.047 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290890975 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:00:58.059 ServerApp] Forbidden
+[W 2022-06-15 13:00:58.059 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290900994 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:08.076 ServerApp] Forbidden
+[W 2022-06-15 13:01:08.076 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290911007 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:18.102 ServerApp] Forbidden
+[W 2022-06-15 13:01:18.102 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290921024 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:28.130 ServerApp] Forbidden
+[W 2022-06-15 13:01:28.130 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290931050 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:37.303 ServerApp] Forbidden
+[W 2022-06-15 13:01:37.304 ServerApp] 403 GET /api/kernels?1655290940231 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:38.156 ServerApp] Forbidden
+[W 2022-06-15 13:01:38.156 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290941081 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:48.169 ServerApp] Forbidden
+[W 2022-06-15 13:01:48.169 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290951105 (127.0.0.1) 0.61ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:01:58.190 ServerApp] Forbidden
+[W 2022-06-15 13:01:58.191 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290961113 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:02:08.210 ServerApp] Forbidden
+[W 2022-06-15 13:02:08.210 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290971137 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:02:18.222 ServerApp] Forbidden
+[W 2022-06-15 13:02:18.222 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290981156 (127.0.0.1) 0.60ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:02:28.250 ServerApp] Forbidden
+[W 2022-06-15 13:02:28.250 ServerApp] 403 GET /api/contents/notebooks?content=1&1655290991168 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:02:38.270 ServerApp] Forbidden
+[W 2022-06-15 13:02:38.270 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291001202 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:02:48.281 ServerApp] Forbidden
+[W 2022-06-15 13:02:48.281 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291011217 (127.0.0.1) 0.71ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:02:58.302 ServerApp] Forbidden
+[W 2022-06-15 13:02:58.302 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291021235 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:05.661 ServerApp] Forbidden
+[W 2022-06-15 13:03:05.661 ServerApp] 403 GET /api/kernelspecs?1655291028595 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:06.470 ServerApp] Forbidden
+[W 2022-06-15 13:03:06.470 ServerApp] 403 GET /api/terminals?1655291029400 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:08.330 ServerApp] Forbidden
+[W 2022-06-15 13:03:08.330 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291031255 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:18.349 ServerApp] Forbidden
+[W 2022-06-15 13:03:18.349 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291041275 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:28.358 ServerApp] Forbidden
+[W 2022-06-15 13:03:28.359 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291051295 (127.0.0.1) 0.70ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:38.382 ServerApp] Forbidden
+[W 2022-06-15 13:03:38.382 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291061312 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:48.397 ServerApp] Forbidden
+[W 2022-06-15 13:03:48.398 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291071333 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:51.665 ServerApp] Forbidden
+[W 2022-06-15 13:03:51.666 ServerApp] 403 GET /api/sessions?1655291074597 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:03:58.417 ServerApp] Forbidden
+[W 2022-06-15 13:03:58.417 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291081348 (127.0.0.1) 0.60ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:04:08.433 ServerApp] Forbidden
+[W 2022-06-15 13:04:08.434 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291091364 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:04:18.463 ServerApp] Forbidden
+[W 2022-06-15 13:04:18.463 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291101388 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:04:28.482 ServerApp] Forbidden
+[W 2022-06-15 13:04:28.482 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291111415 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:04:38.503 ServerApp] Forbidden
+[W 2022-06-15 13:04:38.504 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291121433 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:04:48.581 ServerApp] Forbidden
+[W 2022-06-15 13:04:48.582 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291131456 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:04:58.601 ServerApp] Forbidden
+[W 2022-06-15 13:04:58.601 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291141533 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:08.623 ServerApp] Forbidden
+[W 2022-06-15 13:05:08.623 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291151554 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:18.647 ServerApp] Forbidden
+[W 2022-06-15 13:05:18.647 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291161571 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:20.082 ServerApp] Forbidden
+[W 2022-06-15 13:05:20.082 ServerApp] 403 GET /api/kernels?1655291163021 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:28.674 ServerApp] Forbidden
+[W 2022-06-15 13:05:28.674 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291171600 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:38.691 ServerApp] Forbidden
+[W 2022-06-15 13:05:38.691 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291181623 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:48.715 ServerApp] Forbidden
+[W 2022-06-15 13:05:48.716 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291191651 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:05:58.744 ServerApp] Forbidden
+[W 2022-06-15 13:05:58.744 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291201673 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:06:08.759 ServerApp] Forbidden
+[W 2022-06-15 13:06:08.760 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291211694 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:06:18.771 ServerApp] Forbidden
+[W 2022-06-15 13:06:18.771 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291221710 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:06:28.788 ServerApp] Forbidden
+[W 2022-06-15 13:06:28.788 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291231722 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:06:38.825 ServerApp] Forbidden
+[W 2022-06-15 13:06:38.825 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291241744 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:06:48.852 ServerApp] Forbidden
+[W 2022-06-15 13:06:48.852 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291251784 (127.0.0.1) 0.80ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:06:58.869 ServerApp] Forbidden
+[W 2022-06-15 13:06:58.870 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291261801 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:08.890 ServerApp] Forbidden
+[W 2022-06-15 13:07:08.890 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291271822 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:11.159 ServerApp] Forbidden
+[W 2022-06-15 13:07:11.159 ServerApp] 403 GET /api/kernels?1655291274092 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:18.907 ServerApp] Forbidden
+[W 2022-06-15 13:07:18.907 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291281847 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:28.932 ServerApp] Forbidden
+[W 2022-06-15 13:07:28.932 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291291867 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:38.952 ServerApp] Forbidden
+[W 2022-06-15 13:07:38.952 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291301885 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:43.978 ServerApp] Forbidden
+[W 2022-06-15 13:07:43.978 ServerApp] 403 GET /api/kernelspecs?1655291306852 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:48.977 ServerApp] Forbidden
+[W 2022-06-15 13:07:48.977 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291311911 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:07:59.000 ServerApp] Forbidden
+[W 2022-06-15 13:07:59.000 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291321928 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:04.851 ServerApp] Forbidden
+[W 2022-06-15 13:08:04.851 ServerApp] 403 GET /api/terminals?1655291327781 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:09.117 ServerApp] Forbidden
+[W 2022-06-15 13:08:09.117 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291331960 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:19.138 ServerApp] Forbidden
+[W 2022-06-15 13:08:19.138 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291342068 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:29.164 ServerApp] Forbidden
+[W 2022-06-15 13:08:29.164 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291352098 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:39.196 ServerApp] Forbidden
+[W 2022-06-15 13:08:39.196 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291362125 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:49.213 ServerApp] Forbidden
+[W 2022-06-15 13:08:49.214 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291372154 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:51.692 ServerApp] Forbidden
+[W 2022-06-15 13:08:51.692 ServerApp] 403 GET /api/sessions?1655291374624 (127.0.0.1) 0.71ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:08:59.231 ServerApp] Forbidden
+[W 2022-06-15 13:08:59.231 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291382171 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:09.249 ServerApp] Forbidden
+[W 2022-06-15 13:09:09.249 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291392186 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:11.102 ServerApp] Forbidden
+[W 2022-06-15 13:09:11.102 ServerApp] 403 GET /api/terminals?1655291394031 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:19.269 ServerApp] Forbidden
+[W 2022-06-15 13:09:19.270 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291402209 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:29.286 ServerApp] Forbidden
+[W 2022-06-15 13:09:29.286 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291412228 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:39.313 ServerApp] Forbidden
+[W 2022-06-15 13:09:39.313 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291422248 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:49.334 ServerApp] Forbidden
+[W 2022-06-15 13:09:49.334 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291432274 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:09:59.375 ServerApp] Forbidden
+[W 2022-06-15 13:09:59.375 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291442286 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:09.401 ServerApp] Forbidden
+[W 2022-06-15 13:10:09.402 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291452336 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:19.421 ServerApp] Forbidden
+[W 2022-06-15 13:10:19.421 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291462356 (127.0.0.1) 0.62ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:29.436 ServerApp] Forbidden
+[W 2022-06-15 13:10:29.436 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291472377 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:39.456 ServerApp] Forbidden
+[W 2022-06-15 13:10:39.456 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291482391 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:46.255 ServerApp] Forbidden
+[W 2022-06-15 13:10:46.255 ServerApp] 403 GET /api/terminals?1655291489177 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:49.484 ServerApp] Forbidden
+[W 2022-06-15 13:10:49.484 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291492418 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:10:59.502 ServerApp] Forbidden
+[W 2022-06-15 13:10:59.502 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291502445 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:09.530 ServerApp] Forbidden
+[W 2022-06-15 13:11:09.530 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291512463 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:19.550 ServerApp] Forbidden
+[W 2022-06-15 13:11:19.550 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291522487 (127.0.0.1) 0.61ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:29.568 ServerApp] Forbidden
+[W 2022-06-15 13:11:29.568 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291532505 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:39.598 ServerApp] Forbidden
+[W 2022-06-15 13:11:39.598 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291542533 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:49.619 ServerApp] Forbidden
+[W 2022-06-15 13:11:49.619 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291552562 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:54.776 ServerApp] Forbidden
+[W 2022-06-15 13:11:54.776 ServerApp] 403 GET /api/kernels?1655291557687 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:11:59.639 ServerApp] Forbidden
+[W 2022-06-15 13:11:59.639 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291562583 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:09.658 ServerApp] Forbidden
+[W 2022-06-15 13:12:09.658 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291572595 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:19.688 ServerApp] Forbidden
+[W 2022-06-15 13:12:19.688 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291582616 (127.0.0.1) 0.71ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:29.715 ServerApp] Forbidden
+[W 2022-06-15 13:12:29.715 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291592643 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:39.739 ServerApp] Forbidden
+[W 2022-06-15 13:12:39.739 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291602672 (127.0.0.1) 0.63ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:44.016 ServerApp] Forbidden
+[W 2022-06-15 13:12:44.017 ServerApp] 403 GET /api/kernelspecs?1655291606962 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:49.760 ServerApp] Forbidden
+[W 2022-06-15 13:12:49.760 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291612700 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:58.193 ServerApp] Forbidden
+[W 2022-06-15 13:12:58.193 ServerApp] 403 GET /api/terminals?1655291620629 (127.0.0.1) 0.67ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:12:59.770 ServerApp] Forbidden
+[W 2022-06-15 13:12:59.771 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291622717 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:13:09.808 ServerApp] Forbidden
+[W 2022-06-15 13:13:09.808 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291632736 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:13:19.832 ServerApp] Forbidden
+[W 2022-06-15 13:13:19.832 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291642772 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:13:29.860 ServerApp] Forbidden
+[W 2022-06-15 13:13:29.861 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291652797 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:13:39.974 ServerApp] Forbidden
+[W 2022-06-15 13:13:39.974 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291662820 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:13:49.992 ServerApp] Forbidden
+[W 2022-06-15 13:13:49.992 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291672931 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:13:52.048 ServerApp] Forbidden
+[W 2022-06-15 13:13:52.049 ServerApp] 403 GET /api/sessions?1655291674988 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:00.010 ServerApp] Forbidden
+[W 2022-06-15 13:14:00.010 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291682951 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:10.026 ServerApp] Forbidden
+[W 2022-06-15 13:14:10.027 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291692974 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:12.538 ServerApp] Forbidden
+[W 2022-06-15 13:14:12.538 ServerApp] 403 GET /api/kernels?1655291695474 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:20.054 ServerApp] Forbidden
+[W 2022-06-15 13:14:20.054 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291702992 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:30.068 ServerApp] Forbidden
+[W 2022-06-15 13:14:30.068 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291713015 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:40.079 ServerApp] Forbidden
+[W 2022-06-15 13:14:40.079 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291723026 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:14:50.098 ServerApp] Forbidden
+[W 2022-06-15 13:14:50.099 ServerApp] 403 GET /api/contents/notebooks?content=1&1655291733039 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:25.977 ServerApp] Forbidden
+[W 2022-06-15 13:36:25.977 ServerApp] 403 GET /api/kernels?1655293028904 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:25.979 ServerApp] Forbidden
+[W 2022-06-15 13:36:25.979 ServerApp] 403 GET /api/sessions?1655293028906 (127.0.0.1) 0.33ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:25.982 ServerApp] Forbidden
+[W 2022-06-15 13:36:25.982 ServerApp] 403 GET /api/terminals?1655293028916 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:25.982 ServerApp] Forbidden
+[W 2022-06-15 13:36:25.982 ServerApp] 403 GET /api/contents/notebooks?content=1&1655293028917 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:35.995 ServerApp] Forbidden
+[W 2022-06-15 13:36:35.995 ServerApp] 403 GET /api/contents/notebooks?content=1&1655293038943 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:39.980 ServerApp] Forbidden
+[W 2022-06-15 13:36:39.981 ServerApp] 403 GET /api/sessions?1655293042923 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:36:43.071 ServerApp] Forbidden
+[W 2022-06-15 13:36:43.071 ServerApp] 403 GET /api/terminals?1655293046008 (127.0.0.1) 0.46ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:39:11.983 ServerApp] Forbidden
+[W 2022-06-15 13:39:11.983 ServerApp] 403 GET /api/terminals?1655293194927 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 13:39:51.235 ServerApp] Forbidden
+[W 2022-06-15 13:39:51.235 ServerApp] 403 GET /api/terminals?1655293234166 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:02:27.871 ServerApp] Forbidden
+[W 2022-06-15 14:02:27.871 ServerApp] 403 GET /api/terminals?1655294590811 (127.0.0.1) 0.64ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:02:27.877 ServerApp] Forbidden
+[W 2022-06-15 14:02:27.877 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294590812 (127.0.0.1) 0.46ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:02:27.877 ServerApp] Forbidden
+[W 2022-06-15 14:02:27.878 ServerApp] 403 GET /api/sessions?1655294590814 (127.0.0.1) 0.42ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:02:27.897 ServerApp] Forbidden
+[W 2022-06-15 14:02:27.897 ServerApp] 403 GET /api/kernels?1655294590815 (127.0.0.1) 0.30ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:20.912 ServerApp] Forbidden
+[W 2022-06-15 14:06:20.912 ServerApp] 403 GET /api/kernels?1655294823872 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:20.914 ServerApp] Forbidden
+[W 2022-06-15 14:06:20.914 ServerApp] 403 GET /api/sessions?1655294823873 (127.0.0.1) 0.33ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:22.915 ServerApp] Forbidden
+[W 2022-06-15 14:06:22.915 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294825869 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:25.910 ServerApp] Forbidden
+[W 2022-06-15 14:06:25.910 ServerApp] 403 GET /api/terminals?1655294828870 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:32.923 ServerApp] Forbidden
+[W 2022-06-15 14:06:32.924 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294835884 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:33.609 ServerApp] Forbidden
+[W 2022-06-15 14:06:33.610 ServerApp] 403 GET /api/sessions?1655294836571 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:39.461 ServerApp] Forbidden
+[W 2022-06-15 14:06:39.462 ServerApp] 403 GET /api/kernels?1655294842421 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:42.934 ServerApp] Forbidden
+[W 2022-06-15 14:06:42.934 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294845893 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:48.638 ServerApp] Forbidden
+[W 2022-06-15 14:06:48.639 ServerApp] 403 GET /api/terminals?1655294851599 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:53.013 ServerApp] Forbidden
+[W 2022-06-15 14:06:53.013 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294855903 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:53.524 ServerApp] Forbidden
+[W 2022-06-15 14:06:53.525 ServerApp] 403 GET /api/kernels?1655294856486 (127.0.0.1) 0.37ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:06:57.988 ServerApp] Forbidden
+[W 2022-06-15 14:06:57.988 ServerApp] 403 GET /api/sessions?1655294860948 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:03.021 ServerApp] Forbidden
+[W 2022-06-15 14:07:03.021 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294865981 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:04.206 ServerApp] Forbidden
+[W 2022-06-15 14:07:04.206 ServerApp] 403 GET /api/kernelspecs?1655294867167 (127.0.0.1) 0.40ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:09.953 ServerApp] Forbidden
+[W 2022-06-15 14:07:09.953 ServerApp] 403 GET /api/terminals?1655294872908 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:13.038 ServerApp] Forbidden
+[W 2022-06-15 14:07:13.038 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294875991 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:15.605 ServerApp] Forbidden
+[W 2022-06-15 14:07:15.605 ServerApp] 403 GET /api/sessions?1655294878566 (127.0.0.1) 0.44ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:23.058 ServerApp] Forbidden
+[W 2022-06-15 14:07:23.058 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294886011 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:23.637 ServerApp] Forbidden
+[W 2022-06-15 14:07:23.637 ServerApp] 403 GET /api/kernels?1655294886594 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:33.074 ServerApp] Forbidden
+[W 2022-06-15 14:07:33.074 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294896029 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:43.100 ServerApp] Forbidden
+[W 2022-06-15 14:07:43.100 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294906055 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:46.589 ServerApp] Forbidden
+[W 2022-06-15 14:07:46.589 ServerApp] 403 GET /api/kernels?1655294909550 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:51.556 ServerApp] Forbidden
+[W 2022-06-15 14:07:51.556 ServerApp] 403 GET /api/terminals?1655294914407 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:07:53.114 ServerApp] Forbidden
+[W 2022-06-15 14:07:53.114 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294916075 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:03.260 ServerApp] Forbidden
+[W 2022-06-15 14:08:03.260 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294926215 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:04.217 ServerApp] Forbidden
+[W 2022-06-15 14:08:04.217 ServerApp] 403 GET /api/sessions?1655294927172 (127.0.0.1) 0.43ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:13.034 ServerApp] Forbidden
+[W 2022-06-15 14:08:13.034 ServerApp] 403 GET /api/kernels?1655294935989 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:13.278 ServerApp] Forbidden
+[W 2022-06-15 14:08:13.278 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294936239 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:23.296 ServerApp] Forbidden
+[W 2022-06-15 14:08:23.297 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294946256 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:23.667 ServerApp] Forbidden
+[W 2022-06-15 14:08:23.667 ServerApp] 403 GET /api/kernels?1655294946628 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:33.314 ServerApp] Forbidden
+[W 2022-06-15 14:08:33.314 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294956275 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:41.882 ServerApp] Forbidden
+[W 2022-06-15 14:08:41.883 ServerApp] 403 GET /api/kernels?1655294964842 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:43.327 ServerApp] Forbidden
+[W 2022-06-15 14:08:43.327 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294966288 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:53.340 ServerApp] Forbidden
+[W 2022-06-15 14:08:53.340 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294976302 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:08:53.646 ServerApp] Forbidden
+[W 2022-06-15 14:08:53.646 ServerApp] 403 GET /api/terminals?1655294976561 (127.0.0.1) 0.33ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:03.487 ServerApp] Forbidden
+[W 2022-06-15 14:09:03.487 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294986442 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:04.668 ServerApp] Forbidden
+[W 2022-06-15 14:09:04.668 ServerApp] 403 GET /api/sessions?1655294987630 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:10.316 ServerApp] Forbidden
+[W 2022-06-15 14:09:10.316 ServerApp] 403 GET /api/kernels?1655294993272 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:13.617 ServerApp] Forbidden
+[W 2022-06-15 14:09:13.618 ServerApp] 403 GET /api/contents/notebooks?content=1&1655294996459 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:23.636 ServerApp] Forbidden
+[W 2022-06-15 14:09:23.637 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295006597 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:33.647 ServerApp] Forbidden
+[W 2022-06-15 14:09:33.647 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295016609 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:43.655 ServerApp] Forbidden
+[W 2022-06-15 14:09:43.655 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295026618 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:53.688 ServerApp] Forbidden
+[W 2022-06-15 14:09:53.688 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295036631 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:55.596 ServerApp] Forbidden
+[W 2022-06-15 14:09:55.596 ServerApp] 403 GET /api/kernelspecs?1655295038559 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:09:59.136 ServerApp] Forbidden
+[W 2022-06-15 14:09:59.137 ServerApp] 403 GET /api/kernels?1655295042099 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:03.698 ServerApp] Forbidden
+[W 2022-06-15 14:10:03.698 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295046662 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:13.708 ServerApp] Forbidden
+[W 2022-06-15 14:10:13.708 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295056670 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:23.724 ServerApp] Forbidden
+[W 2022-06-15 14:10:23.724 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295066682 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:28.224 ServerApp] Forbidden
+[W 2022-06-15 14:10:28.224 ServerApp] 403 GET /api/sessions?1655295071186 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:33.740 ServerApp] Forbidden
+[W 2022-06-15 14:10:33.740 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295076703 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:43.753 ServerApp] Forbidden
+[W 2022-06-15 14:10:43.753 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295086716 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:10:53.807 ServerApp] Forbidden
+[W 2022-06-15 14:10:53.807 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295096734 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:03.820 ServerApp] Forbidden
+[W 2022-06-15 14:11:03.820 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295106784 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:06.135 ServerApp] Forbidden
+[W 2022-06-15 14:11:06.135 ServerApp] 403 GET /api/terminals?1655295109099 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:13.836 ServerApp] Forbidden
+[W 2022-06-15 14:11:13.836 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295116793 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:18.018 ServerApp] Forbidden
+[W 2022-06-15 14:11:18.018 ServerApp] 403 GET /api/kernels?1655295120981 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:23.847 ServerApp] Forbidden
+[W 2022-06-15 14:11:23.847 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295126811 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:33.861 ServerApp] Forbidden
+[W 2022-06-15 14:11:33.861 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295136824 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:43.891 ServerApp] Forbidden
+[W 2022-06-15 14:11:43.892 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295146834 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:46.445 ServerApp] Forbidden
+[W 2022-06-15 14:11:46.446 ServerApp] 403 GET /api/sessions?1655295149410 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:11:54.003 ServerApp] Forbidden
+[W 2022-06-15 14:11:54.004 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295156876 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:04.016 ServerApp] Forbidden
+[W 2022-06-15 14:12:04.017 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295166981 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:14.029 ServerApp] Forbidden
+[W 2022-06-15 14:12:14.029 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295176994 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:16.321 ServerApp] Forbidden
+[W 2022-06-15 14:12:16.321 ServerApp] 403 GET /api/kernelspecs?1655295179280 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:21.030 ServerApp] Forbidden
+[W 2022-06-15 14:12:21.030 ServerApp] 403 GET /api/sessions?1655295183988 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:24.037 ServerApp] Forbidden
+[W 2022-06-15 14:12:24.037 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295187002 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:34.045 ServerApp] Forbidden
+[W 2022-06-15 14:12:34.046 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295197011 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:44.058 ServerApp] Forbidden
+[W 2022-06-15 14:12:44.058 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295207023 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:12:54.067 ServerApp] Forbidden
+[W 2022-06-15 14:12:54.067 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295217032 (127.0.0.1) 0.79ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:04.080 ServerApp] Forbidden
+[W 2022-06-15 14:13:04.080 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295227045 (127.0.0.1) 0.78ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:14.102 ServerApp] Forbidden
+[W 2022-06-15 14:13:14.102 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295237061 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:17.894 ServerApp] Forbidden
+[W 2022-06-15 14:13:17.895 ServerApp] 403 GET /api/kernels?1655295240853 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:24.112 ServerApp] Forbidden
+[W 2022-06-15 14:13:24.112 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295247078 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:34.124 ServerApp] Forbidden
+[W 2022-06-15 14:13:34.124 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295257089 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:35.410 ServerApp] Forbidden
+[W 2022-06-15 14:13:35.411 ServerApp] 403 GET /api/kernels?1655295258376 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:41.861 ServerApp] Forbidden
+[W 2022-06-15 14:13:41.861 ServerApp] 403 GET /api/sessions?1655295264826 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:44.145 ServerApp] Forbidden
+[W 2022-06-15 14:13:44.146 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295267103 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:13:54.260 ServerApp] Forbidden
+[W 2022-06-15 14:13:54.261 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295277120 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:04.269 ServerApp] Forbidden
+[W 2022-06-15 14:14:04.269 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295287236 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:14.286 ServerApp] Forbidden
+[W 2022-06-15 14:14:14.286 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295297246 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:14.681 ServerApp] Forbidden
+[W 2022-06-15 14:14:14.681 ServerApp] 403 GET /api/kernels?1655295297648 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:23.629 ServerApp] Forbidden
+[W 2022-06-15 14:14:23.629 ServerApp] 403 GET /api/terminals?1655295306589 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:24.294 ServerApp] Forbidden
+[W 2022-06-15 14:14:24.294 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295307260 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:34.305 ServerApp] Forbidden
+[W 2022-06-15 14:14:34.305 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295317271 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:44.316 ServerApp] Forbidden
+[W 2022-06-15 14:14:44.316 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295327283 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:46.250 ServerApp] Forbidden
+[W 2022-06-15 14:14:46.251 ServerApp] 403 GET /api/kernels?1655295329217 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:14:54.365 ServerApp] Forbidden
+[W 2022-06-15 14:14:54.365 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295337295 (127.0.0.1) 0.62ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:04.385 ServerApp] Forbidden
+[W 2022-06-15 14:15:04.385 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295347345 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:06.622 ServerApp] Forbidden
+[W 2022-06-15 14:15:06.622 ServerApp] 403 GET /api/sessions?1655295349583 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:10.124 ServerApp] Forbidden
+[W 2022-06-15 14:15:10.125 ServerApp] 403 GET /api/kernelspecs?1655295353092 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:14.400 ServerApp] Forbidden
+[W 2022-06-15 14:15:14.401 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295357362 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:24.419 ServerApp] Forbidden
+[W 2022-06-15 14:15:24.419 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295367379 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:34.438 ServerApp] Forbidden
+[W 2022-06-15 14:15:34.438 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295377399 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:44.452 ServerApp] Forbidden
+[W 2022-06-15 14:15:44.452 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295387414 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:50.682 ServerApp] Forbidden
+[W 2022-06-15 14:15:50.682 ServerApp] 403 GET /api/kernels?1655295393649 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:15:54.462 ServerApp] Forbidden
+[W 2022-06-15 14:15:54.462 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295397430 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:16:04.511 ServerApp] Forbidden
+[W 2022-06-15 14:16:04.511 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295407479 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:16:14.529 ServerApp] Forbidden
+[W 2022-06-15 14:16:14.530 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295417491 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:16:24.548 ServerApp] Forbidden
+[W 2022-06-15 14:16:24.548 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295427510 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:16:34.565 ServerApp] Forbidden
+[W 2022-06-15 14:16:34.565 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295437528 (127.0.0.1) 0.65ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:16:44.583 ServerApp] Forbidden
+[W 2022-06-15 14:16:44.584 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295447547 (127.0.0.1) 0.80ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:16:58.131 ServerApp] Forbidden
+[W 2022-06-15 14:16:58.132 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295457559 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:08.144 ServerApp] Forbidden
+[W 2022-06-15 14:17:08.144 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295471113 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:18.157 ServerApp] Forbidden
+[W 2022-06-15 14:17:18.157 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295481126 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:21.066 ServerApp] Forbidden
+[W 2022-06-15 14:17:21.066 ServerApp] 403 GET /api/kernels?1655295484030 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:28.166 ServerApp] Forbidden
+[W 2022-06-15 14:17:28.167 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295491135 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:29.106 ServerApp] Forbidden
+[W 2022-06-15 14:17:29.106 ServerApp] 403 GET /api/terminals?1655295492076 (127.0.0.1) 0.71ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:38.181 ServerApp] Forbidden
+[W 2022-06-15 14:17:38.181 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295501145 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:43.344 ServerApp] Forbidden
+[W 2022-06-15 14:17:43.344 ServerApp] 403 GET /api/sessions?1655295506302 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:48.192 ServerApp] Forbidden
+[W 2022-06-15 14:17:48.192 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295511161 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:17:58.201 ServerApp] Forbidden
+[W 2022-06-15 14:17:58.201 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295521171 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:08.212 ServerApp] Forbidden
+[W 2022-06-15 14:18:08.213 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295531182 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:08.548 ServerApp] Forbidden
+[W 2022-06-15 14:18:08.549 ServerApp] 403 GET /api/kernels?1655295531519 (127.0.0.1) 0.58ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:18.231 ServerApp] Forbidden
+[W 2022-06-15 14:18:18.231 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295541195 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:28.243 ServerApp] Forbidden
+[W 2022-06-15 14:18:28.243 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295551213 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:38.254 ServerApp] Forbidden
+[W 2022-06-15 14:18:38.254 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295561225 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:48.265 ServerApp] Forbidden
+[W 2022-06-15 14:18:48.265 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295571236 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:18:58.300 ServerApp] Forbidden
+[W 2022-06-15 14:18:58.301 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295581245 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:08.315 ServerApp] Forbidden
+[W 2022-06-15 14:19:08.315 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295591285 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:18.332 ServerApp] Forbidden
+[W 2022-06-15 14:19:18.332 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295601297 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:20.213 ServerApp] Forbidden
+[W 2022-06-15 14:19:20.214 ServerApp] 403 GET /api/kernels?1655295603185 (127.0.0.1) 0.70ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:28.343 ServerApp] Forbidden
+[W 2022-06-15 14:19:28.343 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295611313 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:38.351 ServerApp] Forbidden
+[W 2022-06-15 14:19:38.351 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295621322 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:48.363 ServerApp] Forbidden
+[W 2022-06-15 14:19:48.363 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295631335 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:19:58.376 ServerApp] Forbidden
+[W 2022-06-15 14:19:58.376 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295641348 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:08.514 ServerApp] Forbidden
+[W 2022-06-15 14:20:08.514 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295651486 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:10.130 ServerApp] Forbidden
+[W 2022-06-15 14:20:10.130 ServerApp] 403 GET /api/kernelspecs?1655295653104 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:18.522 ServerApp] Forbidden
+[W 2022-06-15 14:20:18.523 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295661494 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:28.531 ServerApp] Forbidden
+[W 2022-06-15 14:20:28.531 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295671503 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:38.544 ServerApp] Forbidden
+[W 2022-06-15 14:20:38.544 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295681514 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:48.560 ServerApp] Forbidden
+[W 2022-06-15 14:20:48.560 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295691527 (127.0.0.1) 0.71ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:20:58.568 ServerApp] Forbidden
+[W 2022-06-15 14:20:58.568 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295701542 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:21:08.583 ServerApp] Forbidden
+[W 2022-06-15 14:21:08.583 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295711549 (127.0.0.1) 0.63ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:21:18.593 ServerApp] Forbidden
+[W 2022-06-15 14:21:18.593 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295721566 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:21:28.607 ServerApp] Forbidden
+[W 2022-06-15 14:21:28.607 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295731580 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:21:38.614 ServerApp] Forbidden
+[W 2022-06-15 14:21:38.615 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295741588 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:21:48.624 ServerApp] Forbidden
+[W 2022-06-15 14:21:48.624 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295751596 (127.0.0.1) 0.78ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:21:58.633 ServerApp] Forbidden
+[W 2022-06-15 14:21:58.633 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295761606 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:08.641 ServerApp] Forbidden
+[W 2022-06-15 14:22:08.642 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295771615 (127.0.0.1) 0.79ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:18.648 ServerApp] Forbidden
+[W 2022-06-15 14:22:18.649 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295781623 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:28.658 ServerApp] Forbidden
+[W 2022-06-15 14:22:28.658 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295791632 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:29.112 ServerApp] Forbidden
+[W 2022-06-15 14:22:29.112 ServerApp] 403 GET /api/terminals?1655295792086 (127.0.0.1) 0.58ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:38.672 ServerApp] Forbidden
+[W 2022-06-15 14:22:38.672 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295801640 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:43.352 ServerApp] Forbidden
+[W 2022-06-15 14:22:43.353 ServerApp] 403 GET /api/sessions?1655295806328 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:45.736 ServerApp] Forbidden
+[W 2022-06-15 14:22:45.736 ServerApp] 403 GET /api/terminals?1655295808711 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:48.685 ServerApp] Forbidden
+[W 2022-06-15 14:22:48.685 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295811659 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:50.980 ServerApp] Forbidden
+[W 2022-06-15 14:22:50.980 ServerApp] 403 GET /api/kernels?1655295813947 (127.0.0.1) 0.71ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:22:58.700 ServerApp] Forbidden
+[W 2022-06-15 14:22:58.700 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295821674 (127.0.0.1) 0.79ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:07.496 ServerApp] Forbidden
+[W 2022-06-15 14:23:07.497 ServerApp] 403 GET /api/terminals?1655295830466 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:08.841 ServerApp] Forbidden
+[W 2022-06-15 14:23:08.841 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295831816 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:18.852 ServerApp] Forbidden
+[W 2022-06-15 14:23:18.852 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295841827 (127.0.0.1) 0.51ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:28.862 ServerApp] Forbidden
+[W 2022-06-15 14:23:28.862 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295851838 (127.0.0.1) 0.54ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:38.873 ServerApp] Forbidden
+[W 2022-06-15 14:23:38.873 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295861848 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:41.572 ServerApp] Forbidden
+[W 2022-06-15 14:23:41.572 ServerApp] 403 GET /api/terminals?1655295864547 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:48.882 ServerApp] Forbidden
+[W 2022-06-15 14:23:48.882 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295871858 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:23:58.905 ServerApp] Forbidden
+[W 2022-06-15 14:23:58.906 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295881867 (127.0.0.1) 0.55ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:00.354 ServerApp] Forbidden
+[W 2022-06-15 14:24:00.354 ServerApp] 403 GET /api/terminals?1655295883330 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:08.913 ServerApp] Forbidden
+[W 2022-06-15 14:24:08.914 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295891890 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:18.932 ServerApp] Forbidden
+[W 2022-06-15 14:24:18.932 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295901902 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:28.943 ServerApp] Forbidden
+[W 2022-06-15 14:24:28.944 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295911919 (127.0.0.1) 0.77ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:38.684 ServerApp] Forbidden
+[W 2022-06-15 14:24:38.684 ServerApp] 403 GET /api/terminals?1655295921649 (127.0.0.1) 0.65ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:38.962 ServerApp] Forbidden
+[W 2022-06-15 14:24:38.962 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295921932 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:48.982 ServerApp] Forbidden
+[W 2022-06-15 14:24:48.982 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295931950 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:24:58.990 ServerApp] Forbidden
+[W 2022-06-15 14:24:58.990 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295941967 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:08.999 ServerApp] Forbidden
+[W 2022-06-15 14:25:08.999 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295951975 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:10.137 ServerApp] Forbidden
+[W 2022-06-15 14:25:10.137 ServerApp] 403 GET /api/kernelspecs?1655295953113 (127.0.0.1) 0.58ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:10.674 ServerApp] Forbidden
+[W 2022-06-15 14:25:10.674 ServerApp] 403 GET /api/terminals?1655295953652 (127.0.0.1) 0.53ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:19.006 ServerApp] Forbidden
+[W 2022-06-15 14:25:19.006 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295961984 (127.0.0.1) 0.62ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:29.014 ServerApp] Forbidden
+[W 2022-06-15 14:25:29.014 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295971991 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:39.023 ServerApp] Forbidden
+[W 2022-06-15 14:25:39.024 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295982001 (127.0.0.1) 0.81ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:49.034 ServerApp] Forbidden
+[W 2022-06-15 14:25:49.034 ServerApp] 403 GET /api/contents/notebooks?content=1&1655295992011 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:51.013 ServerApp] Forbidden
+[W 2022-06-15 14:25:51.014 ServerApp] 403 GET /api/terminals?1655295993984 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:25:59.104 ServerApp] Forbidden
+[W 2022-06-15 14:25:59.104 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296002024 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:26:09.112 ServerApp] Forbidden
+[W 2022-06-15 14:26:09.112 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296012090 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:26:19.120 ServerApp] Forbidden
+[W 2022-06-15 14:26:19.121 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296022098 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:26:29.131 ServerApp] Forbidden
+[W 2022-06-15 14:26:29.131 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296032108 (127.0.0.1) 0.78ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:26:39.140 ServerApp] Forbidden
+[W 2022-06-15 14:26:39.140 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296042118 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:26:49.149 ServerApp] Forbidden
+[W 2022-06-15 14:26:49.150 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296052128 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:26:59.160 ServerApp] Forbidden
+[W 2022-06-15 14:26:59.160 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296062139 (127.0.0.1) 0.78ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:09.168 ServerApp] Forbidden
+[W 2022-06-15 14:27:09.168 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296072145 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:19.175 ServerApp] Forbidden
+[W 2022-06-15 14:27:19.175 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296082154 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:29.186 ServerApp] Forbidden
+[W 2022-06-15 14:27:29.187 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296092165 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:39.196 ServerApp] Forbidden
+[W 2022-06-15 14:27:39.196 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296102174 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:42.721 ServerApp] Forbidden
+[W 2022-06-15 14:27:42.721 ServerApp] 403 GET /api/terminals?1655296105699 (127.0.0.1) 0.46ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:43.368 ServerApp] Forbidden
+[W 2022-06-15 14:27:43.368 ServerApp] 403 GET /api/sessions?1655296106342 (127.0.0.1) 0.72ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:49.206 ServerApp] Forbidden
+[W 2022-06-15 14:27:49.206 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296112185 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:50.995 ServerApp] Forbidden
+[W 2022-06-15 14:27:50.995 ServerApp] 403 GET /api/kernels?1655296113968 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:55.322 ServerApp] Forbidden
+[W 2022-06-15 14:27:55.323 ServerApp] 403 GET /api/terminals?1655296118302 (127.0.0.1) 0.68ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:27:59.312 ServerApp] Forbidden
+[W 2022-06-15 14:27:59.312 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296122195 (127.0.0.1) 0.61ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:09.322 ServerApp] Forbidden
+[W 2022-06-15 14:28:09.322 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296132302 (127.0.0.1) 0.75ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:09.711 ServerApp] Forbidden
+[W 2022-06-15 14:28:09.711 ServerApp] 403 GET /api/terminals?1655296132690 (127.0.0.1) 0.69ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:14.520 ServerApp] Forbidden
+[W 2022-06-15 14:28:14.520 ServerApp] 403 GET /api/sessions?1655296137500 (127.0.0.1) 0.73ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:19.332 ServerApp] Forbidden
+[W 2022-06-15 14:28:19.332 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296142312 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:29.341 ServerApp] Forbidden
+[W 2022-06-15 14:28:29.341 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296152320 (127.0.0.1) 0.76ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:30.638 ServerApp] Forbidden
+[W 2022-06-15 14:28:30.638 ServerApp] 403 GET /api/terminals?1655296153611 (127.0.0.1) 0.67ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:39.349 ServerApp] Forbidden
+[W 2022-06-15 14:28:39.349 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296162329 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:48.324 ServerApp] Forbidden
+[W 2022-06-15 14:28:48.324 ServerApp] 403 GET /api/sessions?1655296171304 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 14:28:49.356 ServerApp] Forbidden
+[W 2022-06-15 14:28:49.357 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296172337 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
