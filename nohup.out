@@ -2787,3 +2787,1494 @@ tornado.websocket.WebSocketClosedError
 [I 2022-05-16 17:50:40.717 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_7.ipynb
 [I 2022-05-16 17:52:39.929 ServerApp] Saving file at /notebooks/CKN_v2022-05-16_LinkPred_5_7.ipynb
 [I 2022-05-16 17:54:40.191 ServerApp] Saving file at /notebooks/CKN_v2022-05-16_LinkPred_5_7.ipynb
+[I 2022-05-16 18:24:34.990 ServerApp] Starting buffering for dda854b3-7bab-4ca2-b683-7783881be59a:ad870fc7-b945-4f17-9032-24cd9a800ad2
+Websocket closed
+Websocket closed
+[I 2022-05-16 18:24:34.991 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:8dd216f6-4a62-417d-8a68-fce433d6dbf3
+[I 2022-05-16 18:24:34.991 ServerApp] Starting buffering for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:2ed4a2ee-2779-478a-a145-6936300d4824
+[I 2022-05-16 18:24:34.991 ServerApp] Starting buffering for 647008f7-aa33-44dd-ade0-50cc70575078:dea9e959-9b40-4e16-af64-be668ead1156
+[I 2022-05-16 18:24:34.991 ServerApp] Starting buffering for 31dea182-d7ee-4bf1-96de-2879d9a39214:e7633bf6-4364-4cce-b2f9-7fc851b5ce21
+Websocket closed
+[I 2022-05-16 18:24:34.991 ServerApp] Starting buffering for 4331871f-920b-4db7-a2cf-65a762719bdc:34c9f32c-8fb0-4b45-9990-548e36088fdf
+[I 2022-05-16 18:24:35.016 ServerApp] Restoring connection for dda854b3-7bab-4ca2-b683-7783881be59a:ad870fc7-b945-4f17-9032-24cd9a800ad2
+[I 2022-05-16 18:24:35.168 ServerApp] Restoring connection for 4331871f-920b-4db7-a2cf-65a762719bdc:34c9f32c-8fb0-4b45-9990-548e36088fdf
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 2022-05-16 18:24:35.369 ServerApp] Restoring connection for 31dea182-d7ee-4bf1-96de-2879d9a39214:e7633bf6-4364-4cce-b2f9-7fc851b5ce21
+[I 2022-05-16 18:24:35.380 ServerApp] Restoring connection for 647008f7-aa33-44dd-ade0-50cc70575078:dea9e959-9b40-4e16-af64-be668ead1156
+[I 2022-05-16 18:24:35.523 ServerApp] Restoring connection for 22cb9088-ff57-4b06-8683-9bc24b4520ea:8dd216f6-4a62-417d-8a68-fce433d6dbf3
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+[I 2022-05-16 18:24:35.543 ServerApp] Restoring connection for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:2ed4a2ee-2779-478a-a145-6936300d4824
+TermSocket.open: 3
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 3
+[W 2022-05-16 18:26:05.017 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-16 18:26:05.170 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-05-16 18:26:05.348 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-05-16 18:26:05.350 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-16 18:26:05.369 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-16 18:26:05.380 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-16 18:26:05.525 ServerApp] WebSocket ping timeout after 90002 ms.
+[W 2022-05-16 18:26:05.537 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-16 18:26:05.544 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-05-16 18:26:05.555 ServerApp] WebSocket ping timeout after 90000 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(11, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(11, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(11, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(11, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(11, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(11, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(11, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(11, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2022-05-16 18:26:10.018 ServerApp] Starting buffering for dda854b3-7bab-4ca2-b683-7783881be59a:ad870fc7-b945-4f17-9032-24cd9a800ad2
+[I 2022-05-16 18:26:10.350 ServerApp] Starting buffering for 4331871f-920b-4db7-a2cf-65a762719bdc:eeeaa06d-6076-4eb8-b77c-6dbcaba09979
+Websocket closed
+[I 2022-05-16 18:26:10.370 ServerApp] Starting buffering for 31dea182-d7ee-4bf1-96de-2879d9a39214:e7633bf6-4364-4cce-b2f9-7fc851b5ce21
+[I 2022-05-16 18:26:10.382 ServerApp] Starting buffering for 647008f7-aa33-44dd-ade0-50cc70575078:dea9e959-9b40-4e16-af64-be668ead1156
+[I 2022-05-16 18:26:10.527 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:8dd216f6-4a62-417d-8a68-fce433d6dbf3
+Websocket closed
+[I 2022-05-16 18:26:10.545 ServerApp] Starting buffering for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:2ed4a2ee-2779-478a-a145-6936300d4824
+Websocket closed
+[I 2022-06-08 14:37:44.094 ServerApp] 302 GET / (127.0.0.1) 0.43ms
+[W 2022-06-08 14:37:47.252 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+TermSocket.open: 3
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 3
+[W 2022-06-08 14:39:17.696 ServerApp] WebSocket ping timeout after 90000 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+TermSocket.open: 3
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 3
+[I 2022-06-08 14:44:03.073 ServerApp] Saving file at /notebooks/CKN_v2022-05-16_LinkPred_5_7.ipynb
+Task exception was never retrieved
+future: <Task finished name='Task-10658869' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658870' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658887' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658905' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658985' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659001' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659022' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659030' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659038' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659039' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659049' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659050' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659063' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659064' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659069' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659080' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659085' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659095' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659100' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659101' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659115' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659119' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659130' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659135' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659147' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659148' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659151' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659165' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659170' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659182' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659187' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659198' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659202' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659203' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659215' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659216' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659222' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659234' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659242' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659243' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659252' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659259' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659267' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659275' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659284' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659295' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659296' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659301' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659312' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659318' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659328' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659337' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659348' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659349' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659354' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659367' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659368' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659371' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659383' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659387' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10659402' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2022-06-08 15:07:14.898 ServerApp] Copying notebooks/CKN-LinkPred_5_7.ipynb to /notebooks
+[I 2022-06-08 15:07:39.118 ServerApp] Kernel started: 7def1933-260a-4c17-8820-db01015b0387
+[I 2022-06-08 15:09:38.788 ServerApp] Saving file at /notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[I 2022-06-08 15:24:18.878 ServerApp] Starting buffering for 7def1933-260a-4c17-8820-db01015b0387:46cad022-60a9-4d4f-8a3a-f056e296e6c7
+Websocket closed
+[I 2022-06-08 15:24:18.881 ServerApp] Starting buffering for 31dea182-d7ee-4bf1-96de-2879d9a39214:f6b655ea-2fae-4cd4-93f0-03777a2d70d9
+[I 2022-06-08 15:24:18.881 ServerApp] Starting buffering for dda854b3-7bab-4ca2-b683-7783881be59a:bb616dda-1973-49f1-8691-d8f0716c8144
+[I 2022-06-08 15:24:18.881 ServerApp] Starting buffering for 647008f7-aa33-44dd-ade0-50cc70575078:ce43a960-1d6f-40d7-af87-709714a443cc
+[I 2022-06-08 15:24:18.882 ServerApp] Starting buffering for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:34e12a32-bd30-40f8-879c-e6a0ae2b291e
+[I 2022-06-08 15:24:18.882 ServerApp] Starting buffering for 4331871f-920b-4db7-a2cf-65a762719bdc:3b6768df-1667-4da9-b831-19c1298fe112
+Websocket closed
+[I 2022-06-08 15:24:18.882 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:30fa205c-730f-437a-b3e1-ad50979a7ea3
+[I 2022-06-08 15:24:18.902 ServerApp] Restoring connection for 7def1933-260a-4c17-8820-db01015b0387:46cad022-60a9-4d4f-8a3a-f056e296e6c7
+TermSocket.open: 3
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 3
+[I 2022-06-08 15:24:19.069 ServerApp] Restoring connection for 31dea182-d7ee-4bf1-96de-2879d9a39214:f6b655ea-2fae-4cd4-93f0-03777a2d70d9
+[I 2022-06-08 15:24:19.084 ServerApp] Restoring connection for dda854b3-7bab-4ca2-b683-7783881be59a:bb616dda-1973-49f1-8691-d8f0716c8144
+[I 2022-06-08 15:24:19.235 ServerApp] Restoring connection for 647008f7-aa33-44dd-ade0-50cc70575078:ce43a960-1d6f-40d7-af87-709714a443cc
+[I 2022-06-08 15:24:19.236 ServerApp] Restoring connection for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:34e12a32-bd30-40f8-879c-e6a0ae2b291e
+[I 2022-06-08 15:24:19.252 ServerApp] Restoring connection for 4331871f-920b-4db7-a2cf-65a762719bdc:3b6768df-1667-4da9-b831-19c1298fe112
+[I 2022-06-08 15:24:19.255 ServerApp] Restoring connection for 22cb9088-ff57-4b06-8683-9bc24b4520ea:30fa205c-730f-437a-b3e1-ad50979a7ea3
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+[W 2022-06-08 15:25:48.902 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-08 15:25:49.053 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-08 15:25:49.070 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-06-08 15:25:49.085 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-08 15:25:49.236 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-08 15:25:49.236 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-08 15:25:49.253 ServerApp] WebSocket ping timeout after 90000 ms.
+[W 2022-06-08 15:25:49.257 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2022-06-08 15:25:49.406 ServerApp] WebSocket ping timeout after 90000 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2022-06-08 15:25:53.903 ServerApp] Starting buffering for 7def1933-260a-4c17-8820-db01015b0387:46cad022-60a9-4d4f-8a3a-f056e296e6c7
+Websocket closed
+[I 2022-06-08 15:25:54.071 ServerApp] Starting buffering for 31dea182-d7ee-4bf1-96de-2879d9a39214:f6b655ea-2fae-4cd4-93f0-03777a2d70d9
+[I 2022-06-08 15:25:54.086 ServerApp] Starting buffering for dda854b3-7bab-4ca2-b683-7783881be59a:bb616dda-1973-49f1-8691-d8f0716c8144
+[I 2022-06-08 15:25:54.237 ServerApp] Starting buffering for 647008f7-aa33-44dd-ade0-50cc70575078:ce43a960-1d6f-40d7-af87-709714a443cc
+[I 2022-06-08 15:25:54.238 ServerApp] Starting buffering for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:34e12a32-bd30-40f8-879c-e6a0ae2b291e
+[I 2022-06-08 15:25:54.254 ServerApp] Starting buffering for 4331871f-920b-4db7-a2cf-65a762719bdc:3b6768df-1667-4da9-b831-19c1298fe112
+[I 2022-06-08 15:25:54.258 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:30fa205c-730f-437a-b3e1-ad50979a7ea3
+Websocket closed
+[W 2022-06-15 10:17:51.270 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+TermSocket.open: 3
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 3
+Exception in callback BaseAsyncIOLoop._handle_events(151, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(151, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/jupyter_server/terminal/handlers.py", line 32, in write_message
+    super(TermSocket, self).write_message(message, binary=binary)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+Websocket closed
+Task exception was never retrieved
+future: <Task finished name='Task-13411932' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13411933' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13411916' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-13411917' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[W 2022-06-15 10:18:00.119 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+TermSocket.open: 3
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 3
