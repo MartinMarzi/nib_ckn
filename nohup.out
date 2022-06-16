@@ -5104,3 +5104,196 @@ TermSocket.open: Opened 3
 [W 2022-06-15 14:28:48.324 ServerApp] 403 GET /api/sessions?1655296171304 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
 [W 2022-06-15 14:28:49.356 ServerApp] Forbidden
 [W 2022-06-15 14:28:49.357 ServerApp] 403 GET /api/contents/notebooks?content=1&1655296172337 (127.0.0.1) 0.74ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:41.653 ServerApp] Forbidden
+[W 2022-06-15 15:32:41.653 ServerApp] 403 GET /api/kernelspecs?1655300004645 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:41.662 ServerApp] Forbidden
+[W 2022-06-15 15:32:41.663 ServerApp] 403 GET /api/kernels?1655300004667 (127.0.0.1) 0.34ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:41.670 ServerApp] Forbidden
+[W 2022-06-15 15:32:41.670 ServerApp] 403 GET /api/terminals?1655300004668 (127.0.0.1) 0.31ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:41.670 ServerApp] Forbidden
+[W 2022-06-15 15:32:41.670 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300004669 (127.0.0.1) 0.47ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:41.671 ServerApp] Forbidden
+[W 2022-06-15 15:32:41.671 ServerApp] 403 GET /api/sessions?1655300004669 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:51.682 ServerApp] Forbidden
+[W 2022-06-15 15:32:51.682 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300014685 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:32:53.902 ServerApp] Forbidden
+[W 2022-06-15 15:32:53.902 ServerApp] 403 GET /api/terminals?1655300016899 (127.0.0.1) 0.46ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:01.696 ServerApp] Forbidden
+[W 2022-06-15 15:33:01.696 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300024698 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:03.070 ServerApp] Forbidden
+[W 2022-06-15 15:33:03.070 ServerApp] 403 GET /api/kernels?1655300026073 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:05.112 ServerApp] Forbidden
+[W 2022-06-15 15:33:05.112 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300028116 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN_v2022-05-16_LinkPred_5_7.ipynb
+[W 2022-06-15 15:33:05.180 ServerApp] Forbidden
+[W 2022-06-15 15:33:05.180 ServerApp] 403 GET /api/sessions?1655300028185 (127.0.0.1) 0.34ms referer=http://localhost:9001/lab/tree/notebooks/CKN_v2022-05-16_LinkPred_5_7.ipynb
+[W 2022-06-15 15:33:05.619 LabApp] Forbidden
+[W 2022-06-15 15:33:05.619 LabApp] 403 PUT /lab/api/workspaces/default?1655300028622 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN_v2022-05-16_LinkPred_5_7.ipynb
+[W 2022-06-15 15:33:07.391 ServerApp] Forbidden
+[W 2022-06-15 15:33:07.392 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300030396 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:07.907 LabApp] Forbidden
+[W 2022-06-15 15:33:07.907 LabApp] 403 PUT /lab/api/workspaces/default?1655300030904 (127.0.0.1) 0.45ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:11.588 LabApp] Forbidden
+[W 2022-06-15 15:33:11.588 LabApp] 403 PUT /lab/api/workspaces/default?1655300034585 (127.0.0.1) 0.60ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:13.758 LabApp] Forbidden
+[W 2022-06-15 15:33:13.758 LabApp] 403 PUT /lab/api/workspaces/default?1655300036755 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:14.617 LabApp] Forbidden
+[W 2022-06-15 15:33:14.618 LabApp] 403 PUT /lab/api/workspaces/default?1655300037614 (127.0.0.1) 0.56ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:17.440 ServerApp] Forbidden
+[W 2022-06-15 15:33:17.440 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300040444 (127.0.0.1) 0.52ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:22.220 ServerApp] Forbidden
+[W 2022-06-15 15:33:22.220 ServerApp] 403 GET /api/terminals?1655300045218 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:27.448 ServerApp] Forbidden
+[W 2022-06-15 15:33:27.448 ServerApp] 403 GET /api/contents/notebooks?content=1&1655300050451 (127.0.0.1) 0.50ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:32.046 ServerApp] Forbidden
+[W 2022-06-15 15:33:32.047 ServerApp] 403 GET /api/kernels?1655300055050 (127.0.0.1) 0.48ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[I 2022-06-15 15:33:32.133 LabApp] 302 GET /lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb (127.0.0.1) 0.30ms
+[I 2022-06-15 15:33:32.155 ServerApp] Starting buffering for 7def1933-260a-4c17-8820-db01015b0387:cbb1df2f-c400-4219-a252-9dde07ae8c5f
+[I 2022-06-15 15:33:32.156 ServerApp] Starting buffering for 647008f7-aa33-44dd-ade0-50cc70575078:73da6de9-bcd0-4b80-9f56-727d2f260544
+[I 2022-06-15 15:33:32.156 ServerApp] Starting buffering for 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801:42f1aaec-1e8f-41a9-9f31-a21ad8995435
+[I 2022-06-15 15:33:32.156 ServerApp] Starting buffering for 4331871f-920b-4db7-a2cf-65a762719bdc:9bface34-603d-4eef-90af-9db1529aeda9
+Websocket closed
+Websocket closed
+[I 2022-06-15 15:33:32.157 ServerApp] Starting buffering for 31dea182-d7ee-4bf1-96de-2879d9a39214:4afd16c9-58d9-41e9-929c-047605335200
+[I 2022-06-15 15:33:32.157 ServerApp] Starting buffering for dda854b3-7bab-4ca2-b683-7783881be59a:b8a93cec-face-4d1e-9173-48d2ec9fa061
+[I 2022-06-15 15:33:32.157 ServerApp] Starting buffering for 22cb9088-ff57-4b06-8683-9bc24b4520ea:e177ffe6-fdee-4fb4-8cd2-2aeeed530e34
+[I 2022-06-15 15:33:35.738 ServerApp] 302 POST /login?next=%2Flab%2Ftree%2Fnotebooks%2FCKN-LinkPred_5_7-test_nr-walks.ipynb (127.0.0.1) 11.92ms
+[W 2022-06-15 15:33:37.317 LabApp] Could not determine jupyterlab build status without nodejs
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+Websocket closed
+Task exception was never retrieved
+future: <Task finished name='Task-13523514' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 280, in __step
+    result = coro.send(None)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+Task exception was never retrieved
+future: <Task finished name='Task-10658832' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658847' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658848' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658849' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-10658833' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 282, in __step
+    result = coro.throw(exc)
+  File "/home/martinm/nib_ckn/venv/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[W 2022-06-15 15:33:57.724 ServerApp] 404 GET /api/contents/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb?content=0&1655300080726 (127.0.0.1): No such file or directory: notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:57.724 ServerApp] No such file or directory: notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[W 2022-06-15 15:33:57.724 ServerApp] 404 GET /api/contents/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb?content=0&1655300080726 (127.0.0.1) 0.49ms referer=http://localhost:9001/lab/tree/notebooks/CKN-LinkPred_5_7-test_nr-walks.ipynb
+[I 2022-06-15 15:33:58.480 ServerApp] Kernel started: d3f4a48b-1821-4d51-963e-f5c543a3b5a1
+[I 2022-06-15 15:33:58.491 ServerApp] Kernel started: 20700857-ddbd-4ba0-ab71-7e5e99f75678
+[I 2022-06-15 15:34:27.640 ServerApp] Kernel shutdown: db17d39d-a8a1-416a-bf2d-35f291ba0941
+[I 2022-06-15 15:34:27.641 ServerApp] Kernel shutdown: e9aa970e-4e2e-43d1-8505-91d12b8bbc3a
+[I 2022-06-15 15:34:27.642 ServerApp] Kernel shutdown: 22cb9088-ff57-4b06-8683-9bc24b4520ea
+[I 2022-06-15 15:34:27.643 ServerApp] Kernel shutdown: fe797c7a-c6f5-4b9d-a56a-a198786039b4
+[I 2022-06-15 15:34:27.644 ServerApp] Kernel shutdown: 8565f97b-4475-4ca8-b587-6b4f91e58f79
+[I 2022-06-15 15:34:27.644 ServerApp] Kernel shutdown: 0b194552-6bc5-44ee-9d3f-289d15cb1a54
+[I 2022-06-15 15:34:27.823 ServerApp] Kernel shutdown: 647008f7-aa33-44dd-ade0-50cc70575078
+[I 2022-06-15 15:34:27.824 ServerApp] Kernel shutdown: d03a348f-5ac1-4e98-b92e-5e57062827ab
+[I 2022-06-15 15:34:27.851 ServerApp] Kernel shutdown: 61583383-730f-45ab-8624-336d68f5d3a2
+[I 2022-06-15 15:34:27.854 ServerApp] Kernel shutdown: 31dea182-d7ee-4bf1-96de-2879d9a39214
+[I 2022-06-15 15:34:28.006 ServerApp] Kernel shutdown: 4331871f-920b-4db7-a2cf-65a762719bdc
+[I 2022-06-15 15:34:28.179 ServerApp] Kernel shutdown: dda854b3-7bab-4ca2-b683-7783881be59a
+[I 2022-06-15 15:34:28.357 ServerApp] Kernel shutdown: 7a7cef13-f8a1-4e79-8ae8-9ceb9cbd9801
+[I 2022-06-15 15:34:28.522 ServerApp] Kernel shutdown: 7def1933-260a-4c17-8820-db01015b0387
+[I 2022-06-15 15:34:28.629 ServerApp] Kernel shutdown: d3f4a48b-1821-4d51-963e-f5c543a3b5a1
+[I 2022-06-15 15:34:28.737 ServerApp] Kernel shutdown: 20700857-ddbd-4ba0-ab71-7e5e99f75678
+[I 2022-06-15 15:34:28.947 ServerApp] EOF on FD 145; stopping reading
+[I 2022-06-15 15:34:29.048 ServerApp] Terminal 2 closed
+not able to serialize: expected string or bytes-like object
+Websocket closed
+[I 2022-06-15 15:34:30.733 ServerApp] Shutting down on /api/shutdown request.
+[I 2022-06-15 15:34:30.733 ServerApp] Shutting down 2 extensions
+[I 2022-06-15 15:34:30.733 ServerApp] Shutting down 0 kernels
+[I 2022-06-15 15:34:30.733 ServerApp] Shutting down 2 terminals
